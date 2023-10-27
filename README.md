@@ -4,7 +4,7 @@ Customize version of Wp-Adv-Quiz<br>
 original：https://github.com/markusbegerow/Wp-Adv-Quiz
 
 ## Added Features
-* Options for where to display the Custom Form
+* Custom Form Options : Show Custom Form on quiz page
 * MultiCheckBox Form
 
 ## In Progress
