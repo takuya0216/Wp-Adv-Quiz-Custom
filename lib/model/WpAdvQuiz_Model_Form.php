@@ -11,6 +11,7 @@ class WpAdvQuiz_Model_Form extends WpAdvQuiz_Model_Model
     const FORM_TYPE_DATE = 6;
     const FORM_TYPE_SELECT = 7;
     const FORM_TYPE_RADIO = 8;
+    const FORM_TYPE_MULTI_CHECKBOX = 9;//Edit
 
     protected $_formId = 0;
     protected $_quizId = 0;

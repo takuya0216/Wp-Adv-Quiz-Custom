@@ -30,6 +30,7 @@ class WpAdvQuiz_Model_Quiz extends WpAdvQuiz_Model_Model
 
     const QUIZ_FORM_POSITION_START = 0;
     const QUIZ_FORM_POSITION_END = 1;
+    const QUIZ_FORM_POSITION_ONQUIZ = 2; //Edit add option
 
     protected $_id = 0;
     protected $_name = '';

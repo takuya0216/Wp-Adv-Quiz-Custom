@@ -387,8 +387,8 @@ class WpAdvQuiz_Controller_Quiz extends WpAdvQuiz_Controller_Controller
             if ((int)$f['form_id'] && (int)$f['form_delete']) {
                 continue;
             }
-
-            if ($f['type'] == WpAdvQuiz_Model_Form::FORM_TYPE_SELECT || $f['type'] == WpAdvQuiz_Model_Form::FORM_TYPE_RADIO) {
+            //Edit
+            if ($f['type'] == WpAdvQuiz_Model_Form::FORM_TYPE_SELECT || $f['type'] == WpAdvQuiz_Model_Form::FORM_TYPE_RADIO || $f['type'] == WpAdvQuiz_Model_Form::FORM_TYPE_MULTI_CHECKBOX) {
                 if (!empty($f['data'])) {
                     $items = explode("\n", $f['data']);
                     $f['data'] = array();
@@ -469,7 +469,8 @@ class WpAdvQuiz_Controller_Quiz extends WpAdvQuiz_Controller_Controller
             $f['sort'] = $sort++;
             $f['quizId'] = $quizId;
 
-            if ($f['type'] == WpAdvQuiz_Model_Form::FORM_TYPE_SELECT || $f['type'] == WpAdvQuiz_Model_Form::FORM_TYPE_RADIO) {
+            //Edit
+            if ($f['type'] == WpAdvQuiz_Model_Form::FORM_TYPE_SELECT || $f['type'] == WpAdvQuiz_Model_Form::FORM_TYPE_RADIO || $f['type'] == WpAdvQuiz_Model_Form::FORM_TYPE_MULTI_CHECKBOX) {
                 if (!empty($f['data'])) {
                     $items = explode("\n", $f['data']);
                     $f['data'] = array();

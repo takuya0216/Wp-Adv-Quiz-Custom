@@ -72,7 +72,7 @@ class WpAdvQuiz_View_StatisticsAjax extends WpAdvQuiz_View_View
                                         'wp-adv-quiz'); ?></a>
 							</span> |
                                 <span>
-                                    <a class="wpAdvQuiz_export" href="#" data-baseurl="admin.php?page=wpAdvQuiz&module=statistic_export&action=user_export&quiz_id=<?php echo esc_attr($model->getQuizId()); ?>&user_id=0&ref_id=<?php echo esc_attr($model->getStatisticRefId()); ?>&avg=0&noheader=true"><?php _e('Export', 'wp-adv-quiz'); ?></a>
+                                    <a class="wpAdvQuiz_export" href="#" data-baseurl="admin.php?_wpnonce=f8b21c589e&page=wpAdvQuiz&module=statistic_export&action=user_export&quiz_id=<?php echo esc_attr($model->getQuizId()); ?>&user_id=0&ref_id=<?php echo esc_attr($model->getStatisticRefId()); ?>&avg=0&noheader=true"><?php _e('Export', 'wp-adv-quiz'); ?></a>
                                 </span>
                             </div>
 
@@ -333,7 +333,7 @@ class WpAdvQuiz_View_StatisticsAjax extends WpAdvQuiz_View_View
         <div style="margin-top: 10px;">
             <div style="float: left;">
                 <a class="button-secondary wpAdvQuiz_update" href="#"><?php _e('Refresh', 'wp-adv-quiz'); ?></a>
-                <a class="button-secondary wpAdvQuiz_export" href="#" data-baseurl="admin.php?page=wpAdvQuiz&module=statistic_export&action=user_export&quiz_id=<?php echo esc_attr($this->quizId); ?>&user_id=<?php echo esc_attr($this->userId); ?>&ref_id=<?php echo esc_attr($this->refId); ?>&avg=<?php echo esc_attr($this->avg); ?>&noheader=true"><?php _e('Export', 'wp-adv-quiz'); ?></a>
+                <a class="button-secondary wpAdvQuiz_export" href="#" data-baseurl="admin.php?_wpnonce=f8b21c589e&page=wpAdvQuiz&module=statistic_export&action=user_export&quiz_id=<?php echo esc_attr($this->quizId); ?>&user_id=<?php echo esc_attr($this->userId); ?>&ref_id=<?php echo esc_attr($this->refId); ?>&avg=<?php echo esc_attr($this->avg); ?>&noheader=true"><?php _e('Export', 'wp-adv-quiz'); ?></a>
             </div>
             <div style="float: right;">
                 <?php if (current_user_can('wpAdvQuiz_reset_statistics')) { ?>
@@ -643,6 +643,7 @@ class WpAdvQuiz_View_StatisticsAjax extends WpAdvQuiz_View_View
                                             case WpAdvQuiz_Model_Form::FORM_TYPE_NUMBER:
                                             case WpAdvQuiz_Model_Form::FORM_TYPE_RADIO:
                                             case WpAdvQuiz_Model_Form::FORM_TYPE_SELECT:
+											case WpAdvQuiz_Model_Form::FORM_TYPE_MULTI_CHECKBOX://Edit
                                                 echo esc_html($str);
                                                 break;
                                             case WpAdvQuiz_Model_Form::FORM_TYPE_CHECKBOX:
@@ -746,7 +747,7 @@ class WpAdvQuiz_View_StatisticsAjax extends WpAdvQuiz_View_View
 							</span>
                                 |
                                 <span>
-                                    <a class="wpAdvQuiz_export" href="#" data-baseurl="admin.php?page=wpAdvQuiz&module=statistic_export&action=user_export&quiz_id=<?php echo esc_attr($this->quizId); ?>&user_id=<?php echo esc_attr($model->getUserId()); ?>&ref_id=0&avg=1&noheader=true"><?php _e('Export', 'wp-adv-quiz'); ?></a>
+                                    <a class="wpAdvQuiz_export" href="#" data-baseurl="admin.php?_wpnonce=f8b21c589e&page=wpAdvQuiz&module=statistic_export&action=user_export&quiz_id=<?php echo esc_attr($this->quizId); ?>&user_id=<?php echo esc_attr($model->getUserId()); ?>&ref_id=0&avg=1&noheader=true"><?php _e('Export', 'wp-adv-quiz'); ?></a>
                                 </span>
                             </div>
 

@@ -481,6 +481,21 @@ class WpAdvQuiz_View_FrontQuiz extends WpAdvQuiz_View_View
                                     echo '</label> ';
                                     echo '</div>';
                                     break;
+                                case WpAdvQuiz_Model_Form::FORM_TYPE_MULTI_CHECKBOX:
+                                    echo '<div data-required="' . (int)$form->isRequired() . '" data-type="' . $form->getType() . '" class="wpAdvQuiz_formFields" data-form_id="' . $form->getFormId() . '">';
+    
+                                        if ($form->getData() !== null) {
+                                            foreach ($form->getData() as $data) {
+                                                echo '<label>';
+                                                echo '<input name="' . esc_attr($name) . '" type="checkbox" value="' . esc_attr($data) . '"> ',
+                                                esc_html($data);
+                                                echo '</label> ';
+                                            }
+                                        }
+    
+                                    echo '</div>';
+    
+                                    break;
                             }
 
                             if (isset($validateText[$form->getType()])) {
@@ -739,7 +754,8 @@ class WpAdvQuiz_View_FrontQuiz extends WpAdvQuiz_View_View
                     </ol>
                 </div>
             </div>
-            <div>
+            <!-- Edit add class wpAdvQuiz_resultText -->
+            <div class="wpAdvQuiz_resultText">
                 <ul class="wpAdvQuiz_resultsList">
                     <?php foreach ($result['text'] as $resultText) { ?>
                         <li style="display: none;">
@@ -1115,6 +1131,15 @@ class WpAdvQuiz_View_FrontQuiz extends WpAdvQuiz_View_View
 
                 <?php } ?>
             </ol>
+
+            <?php
+                //edit add formShowPosition QUIZ_FORM_POSITION_ONQUIZ 
+                if ($this->quiz->isFormActivated() && $this->quiz->getFormShowPosition() == WpAdvQuiz_Model_Quiz::QUIZ_FORM_POSITION_ONQUIZ
+                    && (!$this->quiz->isShowReviewQuestion() || $this->quiz->isQuizSummaryHide())) {
+                        $this->showFormBox();
+                }
+            ?> 
+
             <?php if ($this->quiz->getQuizModus() == WpAdvQuiz_Model_Quiz::QUIZ_MODUS_SINGLE) { ?>
                 <div>
                     <input type="button" name="wpAdvQuiz_pageLeft"
@@ -1130,11 +1155,12 @@ class WpAdvQuiz_View_FrontQuiz extends WpAdvQuiz_View_View
                                class="wpAdvQuiz_button wpAdvQuiz_QuestionButton" style="float: right;
 							   	width:<?php echo esc_attr($this->summary_btn_width); ?>px !Important; height:<?php echo esc_attr($this->summary_btn_height); ?>px !Important; background-color: <?php echo esc_attr($this->summary_btn_color); ?> !important">
                     <?php } else { ?>
-                        <input type="button" name="checkSingle"
+
+                        <input type="button" name="checkSingle" 
                                value="<?php echo esc_attr($this->_buttonNames['finish_quiz']); ?>"
                                class="wpAdvQuiz_button wpAdvQuiz_QuestionButton" style="float: right;
 							   width:<?php echo esc_attr($this->finish_btn_width); ?>px !Important; height:<?php echo esc_attr($this->finish_btn_height); ?>px !Important; background-color: <?php echo esc_attr($this->finish_btn_color); ?> !important">
-                    <?php } ?>
+                            <?php } ?>
 
                     <div style="clear: both;"></div>
                 </div>

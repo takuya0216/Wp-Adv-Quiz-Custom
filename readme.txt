@@ -11,6 +11,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 A powerful and beautiful quiz plugin for WordPress.
 
+Edit: Takuya Ishida
+Description: Custom for locomotion-okazaki.com. Read chnagelog.txt.
+
 == Description ==
 
 A powerful and beautiful quiz plugin for WordPress.
@@ -19,8 +22,8 @@ Donate link: <a href="https://www.paypal.com/donate?hosted_button_id=7EL8K7ELFWH
 = Features =
 General
 <ul>
-<li>WordPress 6.2 support</li>
-<li>PHP 8.0 support</li>
+<li>WordPress 6.3 support</li>
+<li>PHP 8.2 support</li>
 <li>Import / Export function</li>
 <li>HTML Support</li>
 <li>Multimedia Support (Videos & Audio files)</li>

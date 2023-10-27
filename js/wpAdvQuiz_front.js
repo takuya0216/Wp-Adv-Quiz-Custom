@@ -685,7 +685,8 @@ wpAdvQuizReady(function () {
                 YES_NO: 5,
                 DATE: 6,
                 SELECT: 7,
-                RADIO: 8
+                RADIO: 8,
+                MULTICHECKBOX: 9 //Edit
             };
 
             this.checkForm = function () {
@@ -738,6 +739,11 @@ wpAdvQuizReady(function () {
                             if (isRequired || co > 0)
                                 test = num == co;
 
+                            break;
+                        //Edit
+                        case typeConst.MULTICHECKBOX:
+                            if (isRequired)
+                                test = $this.find('input[type="checkbox"]:checked').val() !== undefined;
                             break;
                     }
 
@@ -819,6 +825,13 @@ wpAdvQuizReady(function () {
                                 month: $this.find('select[name="wpAdvQuiz_field_' + id + '_month"]').val(),
                                 year: $this.find('select[name="wpAdvQuiz_field_' + id + '_year"]').val()
                             };
+                            break;
+                        //Edit
+                        case typeConst.MULTICHECKBOX:
+                            data[id] = $this.find('input[type="checkbox"]:checked').map(function() {
+                                return $(this).val();
+                            }).get();
+                            data[id] = data[id].join(',');
                             break;
                     }
                 });
@@ -1411,8 +1424,6 @@ wpAdvQuizReady(function () {
 
                 $resultText.show();
 
-                //Result-Text END
-
                 plugin.methode.setAverageResult(results.comp.result, false);
 
                 this.setCategoryOverview();
@@ -1431,7 +1442,6 @@ wpAdvQuizReady(function () {
 
                 plugin.methode.scrollTo(globalElements.results);
             },
-
             setCategoryOverview: function () {
                 results.comp.cats = {};
 
@@ -2000,8 +2010,10 @@ wpAdvQuizReady(function () {
                             }
                         }
                     }
-
-                    plugin.methode.showQuizSummary();
+                    //Edit for FormONQuizMode
+                    if (formClass.checkForm()){
+                        plugin.methode.showQuizSummary();
+                    }
                 });
 
                 $e.find('input[name="tip"]').click(plugin.methode.showTip);

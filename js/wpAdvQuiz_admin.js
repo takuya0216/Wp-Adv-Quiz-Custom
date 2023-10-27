@@ -1107,6 +1107,10 @@ jQuery(document).ready(function ($) {
                     case 8:
                         $(this).siblings('.editDropDown').show();
                         break;
+                    //edit
+                    case 9:
+                        $(this).siblings('.editDropDown').show();
+                        break;
                     default:
                         $(this).siblings('.editDropDown, .dropDownEditBox').hide();
                         break;

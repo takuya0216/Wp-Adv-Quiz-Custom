@@ -38,6 +38,9 @@ class WpAdvQuiz_Helper_Form
                 return empty($data) ? true : ($data == 0 || $data == 1);
             case WpAdvQuiz_Model_Form::FORM_TYPE_DATE:
                 return true;
+			//Edit
+            case WpAdvQuiz_Model_Form::FORM_TYPE_MULTI_CHECKBOX:
+				return true;
 
         }
 
@@ -99,6 +102,7 @@ class WpAdvQuiz_Helper_Form
             case WpAdvQuiz_Model_Form::FORM_TYPE_NUMBER:
             case WpAdvQuiz_Model_Form::FORM_TYPE_RADIO:
             case WpAdvQuiz_Model_Form::FORM_TYPE_SELECT:
+                case WpAdvQuiz_Model_Form::FORM_TYPE_MULTI_CHECKBOX:
                 return $escape ? esc_html($str) : $str;
                 break;
             case WpAdvQuiz_Model_Form::FORM_TYPE_CHECKBOX:

@@ -1,3 +1,5 @@
+officail change
+
 = 1.0.2 =
 * WordPress 6.3 and PHP 8.2 ready
 
@@ -8,3 +10,77 @@
 * WordPress 5.9 and PHP 8.0 ready
 
 
+my change
+add formShowPosition option 
+    WpAdvQuiz_Model_Quiz.php
+      add const value QUIZ_FORM_POSITION_ONQUIZ = 2;
+    
+    WpAdvQuiz_View_QuizEdit.php
+      postBoxForms()
+        add option form for QUIZ_FORM_POSITION_ONQUIZ.
+        option name is Quizと同じページに表示. 
+
+    WpAdvQuiz_View_FrontQuiz.php
+      showQuizBox()
+        add showForm function when QUIZ_FORM_POSITION_ONQUIZ is selected.
+    wpAdvQuiz_font.js wpAdvQuiz_front.min.js
+      initQuiz()
+        add k.checkForm() as Form varidation.
+
+change version as minor
+    wp-adv-quiz.php
+      version define changes as minor version up like 1.0.2.* .
+
+add css class wpAdvQuiz_resultText
+    WpAdvQuiz_View_FrontQuiz.php
+      for locomotion logic
+
+add MultiCheckbox form at Custom Field form option
+    WpAdvQuiz_Model_Form.php
+      add FORM_TYPE_MULTI_CHECKBOX = 9
+    
+    WpAdvQuiz_View_QuizEdit.php
+      postBoxForms()
+        add option WpAdvQuiz_Model_Form::FORM_TYPE_MULTI_CHECKBOX
+        <option
+          value="<?php echo esc_attr(WpAdvQuiz_Model_Form::FORM_TYPE_MULTI_CHECKBOX); ?>" <?php echo esc_attr($checkType[9]); ?>><?php _e('MultiCheckBox',
+        'wp-adv-quiz'); ?></option>
+    
+    WpAdvQuiz_View_FrontQuiz.php
+      show MultiCheckBox form to front
+
+      case WpAdvQuiz_Model_Form::FORM_TYPE_MULTI_CHECKBOX:
+          echo '<div data-required="' . (int)$form->isRequired() . '" data-type="' . $form->getType() . '" class="wpAdvQuiz_formFields" data-form_id="' . $form->getFormId() . '">';
+          if ($form->getData() !== null) {
+            foreach ($form->getData() as $data) {
+              echo '<label>';
+              echo '<input name="' . esc_attr($name) . '" type="checkbox" value="' . esc_attr($data) . '"> ',
+              esc_html($data);
+              echo '</label> ';
+            }
+          }
+          echo '</div>';
+
+    WpAdvQuiz_View_StatisticsAjax.php
+      echo MultiCheckBox data to statistics
+      case WpAdvQuiz_Model_Form::FORM_TYPE_MULTI_CHECKBOX://Edit
+    
+    WpAdvQuiz_Controller_Quiz.php
+      add validation
+
+    WpAdvQuiz_Helper_Form.php
+      add valid(),validData()
+        add case WpAdvQuiz_Model_Form::FORM_TYPE_MULTI_CHECKBOX:
+    
+    wpAdvQuiz_admin.js wpAdvQuiz_admin.min.js
+      init()
+        $('select[name="form[][type]"]').change(function ()
+          add case 9
+    
+    wpAdvQuiz_front.js wpAdvQuiz_front.min.js
+      add var typeConst = MULTICHECKBOX: 9
+      checkForm()
+        add check required MULTICHECKBOX
+      getFormData()
+        add case typeConst.MULTICHECKBOX
+          チェックされた値をコンマ区切りの文字列として保存。

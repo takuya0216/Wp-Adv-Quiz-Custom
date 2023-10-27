@@ -1826,6 +1826,14 @@ class WpAdvQuiz_View_QuizEdit extends WpAdvQuiz_View_View
                                     </div>
 
                                 </label>
+                                <label>
+                                    <input type="radio"
+                                           value="<?php echo esc_attr(WpAdvQuiz_Model_Quiz::QUIZ_FORM_POSITION_ONQUIZ); ?>"
+                                           name="formShowPosition" <?php $this->checked($this->quiz->getFormShowPosition(),
+                                        WpAdvQuiz_Model_Quiz::QUIZ_FORM_POSITION_ONQUIZ); ?> >
+                                    <?php _e('Quizと同じページに表示', 'wp-adv-quiz'); ?>
+
+                                </label>
                             </fieldset>
                         </td>
                     </tr>
@@ -1865,7 +1873,8 @@ class WpAdvQuiz_View_QuizEdit extends WpAdvQuiz_View_View
                                 WpAdvQuiz_Model_Form::FORM_TYPE_NUMBER,
                                 WpAdvQuiz_Model_Form::FORM_TYPE_EMAIL,
                                 WpAdvQuiz_Model_Form::FORM_TYPE_YES_NO,
-                                WpAdvQuiz_Model_Form::FORM_TYPE_DATE
+                                WpAdvQuiz_Model_Form::FORM_TYPE_DATE,
+                                WpAdvQuiz_Model_Form::FORM_TYPE_MULTI_CHECKBOX //Edit
                             ));
                             ?>
                             <tr <?php echo esc_attr($index++) == 0 ? 'style="display: none;"' : '' ?>>
@@ -1905,6 +1914,10 @@ class WpAdvQuiz_View_QuizEdit extends WpAdvQuiz_View_View
                                                 'wp-adv-quiz'); ?></option>
                                         <option
                                             value="<?php echo esc_attr(WpAdvQuiz_Model_Form::FORM_TYPE_DATE); ?>" <?php echo esc_attr($checkType[8]); ?>><?php _e('Date',
+                                                'wp-adv-quiz'); ?></option>
+                                        <!--Edit-->
+                                        <option
+                                            value="<?php echo esc_attr(WpAdvQuiz_Model_Form::FORM_TYPE_MULTI_CHECKBOX); ?>" <?php echo esc_attr($checkType[9]); ?>><?php _e('MultiCheckBox',
                                                 'wp-adv-quiz'); ?></option>
                                     </select>
 
