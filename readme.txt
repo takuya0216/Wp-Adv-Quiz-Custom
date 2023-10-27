@@ -1,3 +1,8 @@
+=== Wp-Adv-Quiz-Custom ===
+Editor: Takuya Ishida
+Description: Customize version. Read chnagelog.txt.
+URL:https://github.com/takuya0216/Wp-Adv-Quiz-Custom
+
 === Wp-Adv-Quiz ===
 Contributors: Markus Begerow
 Donate link: https://www.paypal.com/donate?hosted_button_id=7EL8K7ELFWHSY
@@ -10,9 +15,6 @@ License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 A powerful and beautiful quiz plugin for WordPress.
-
-Edit: Takuya Ishida
-Description: Custom for locomotion-okazaki.com. Read chnagelog.txt.
 
 == Description ==
 

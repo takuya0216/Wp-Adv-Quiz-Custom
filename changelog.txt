@@ -10,7 +10,8 @@ officail change
 * WordPress 5.9 and PHP 8.0 ready
 
 
-my change
+Custom change
+
 add formShowPosition option 
     WpAdvQuiz_Model_Quiz.php
       add const value QUIZ_FORM_POSITION_ONQUIZ = 2;
