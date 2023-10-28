@@ -1831,7 +1831,7 @@ class WpAdvQuiz_View_QuizEdit extends WpAdvQuiz_View_View
                                            value="<?php echo esc_attr(WpAdvQuiz_Model_Quiz::QUIZ_FORM_POSITION_ONQUIZ); ?>"
                                            name="formShowPosition" <?php $this->checked($this->quiz->getFormShowPosition(),
                                         WpAdvQuiz_Model_Quiz::QUIZ_FORM_POSITION_ONQUIZ); ?> >
-                                    <?php _e('Quizと同じページに表示', 'wp-adv-quiz'); ?>
+                                    <?php _e('On The Quiz', 'wp-adv-quiz'); ?>
 
                                 </label>
                             </fieldset>

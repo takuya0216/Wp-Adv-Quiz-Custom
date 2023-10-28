@@ -1134,7 +1134,7 @@ class WpAdvQuiz_View_FrontQuiz extends WpAdvQuiz_View_View
 
             <?php
                 //edit add formShowPosition QUIZ_FORM_POSITION_ONQUIZ 
-                if ($this->quiz->isFormActivated() && $this->quiz->getFormShowPosition() == WpAdvQuiz_Model_Quiz::QUIZ_FORM_POSITION_ONQUIZ
+                if ($this->quiz->isFormActivated() && $this->quiz->getFormShowPosition() == WpAdvQuiz_Model_Quiz::QUIZ_FORM_POSITION_ONQUIZ && $this->quiz->getQuizModus() == WpAdvQuiz_Model_Quiz::QUIZ_MODUS_SINGLE
                     && (!$this->quiz->isShowReviewQuestion() || $this->quiz->isQuizSummaryHide())) {
                         $this->showFormBox();
                 }

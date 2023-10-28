@@ -19,11 +19,12 @@ add formShowPosition option
     WpAdvQuiz_View_QuizEdit.php
       postBoxForms()
         add option form for QUIZ_FORM_POSITION_ONQUIZ.
-        option name is Quizと同じページに表示. 
+        option name is On The Quiz. 
 
     WpAdvQuiz_View_FrontQuiz.php
       showQuizBox()
         add showForm function when QUIZ_FORM_POSITION_ONQUIZ is selected.
+        only showed on SINGLE MODE
     wpAdvQuiz_font.js wpAdvQuiz_front.min.js
       initQuiz()
         add k.checkForm() as Form varidation.
