@@ -2,14 +2,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP-Adv-Quiz\n"
 "POT-Creation-Date: 2023-04-09 16:48+0200\n"
-"PO-Revision-Date: 2023-10-26 01:19+0900\n"
+"PO-Revision-Date: 2023-10-30 14:09+0900\n"
 "Last-Translator: \n"
 "Language-Team: Markus Begerow\n"
 "Language: ja_JP\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.4\n"
+"X-Generator: Poedit 3.1.1\n"
 "X-Poedit-KeywordsList: __;_e\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-SourceCharset: UTF-8\n"
@@ -17,55 +17,55 @@ msgstr ""
 
 #: js/wpAdvQuiz_block.js:46
 msgid "Something goes wrong please reload page"
-msgstr ""
+msgstr "何か問題が発生しました。ページをリロードしてください"
 
 #: js/wpAdvQuiz_block.js:60
 msgid "-Select Quiz-"
-msgstr ""
+msgstr "-クイズを選択-"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:40
 msgid "Do you really want to delete the quiz/question?"
-msgstr ""
+msgstr "本当にクイズ/問いを削除しますか？"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:41
 msgid "Title is not filled!"
-msgstr ""
+msgstr "タイトルが入力されていません！"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:42
 msgid "No question deposited!"
-msgstr ""
+msgstr "問題が保存されていません！"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:43
 msgid "Correct answer was not selected!"
-msgstr ""
+msgstr "正しい答えが選択されていません！"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:44
 msgid "No answer deposited!"
-msgstr ""
+msgstr "答えが保存されていません！"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:45
 msgid "No quiz description filled!"
-msgstr ""
+msgstr "クイズの説明が入力されていません！"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:46
 msgid "The percent values in result text are incorrect."
-msgstr ""
+msgstr "結果のテキスト内のパーセント値が正しくありません。"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:47
 msgid "No number in the field \"Points\" or less than 1"
-msgstr ""
+msgstr "”ポイント” フィールドに数値が入力されていないか、1未満です"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:48
 msgid "No number in the field \"Points\" or less than 0"
-msgstr ""
+msgstr "“ポイント”フィールドに数値が入力されていないか、0未満です"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:49
 msgid "No quiz selected"
-msgstr ""
+msgstr "クイズが選択されていません"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:50
 msgid "Do you really want to reset the statistic?"
-msgstr ""
+msgstr "統計を本当にリセットしますか？"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:51
 #: lib/view/WpAdvQuiz_View_FrontToplist.php:35
@@ -74,41 +74,41 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:58
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:705
 msgid "No data available"
-msgstr ""
+msgstr "データが利用できません"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:52
 msgid "No sort element in the criterion"
-msgstr ""
+msgstr "基準内にソート要素がありません"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:53
 msgid ""
 "\"Different points for every answer\" is not possible at \"Free\" choice"
-msgstr ""
+msgstr "“すべての回答に異なるポイント” は ”Free” モードでは利用できません"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:54
 msgid "You must specify a name."
-msgstr ""
+msgstr "名前を指定する必要があります."
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:55
 msgid "This entry should really be deleted?"
-msgstr ""
+msgstr "このエントリは本当に削除すべきですか？"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:56
 msgid "Not all fields completed."
-msgstr ""
+msgstr "すべてのフィールドが入力されていません."
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:57
 msgid "You must specify a template name."
-msgstr ""
+msgstr "テンプレート名を指定する必要があります."
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:58
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:238
 msgid "Close"
-msgstr ""
+msgstr "閉じる"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:59
 msgid "Today"
-msgstr ""
+msgstr "今日"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:108
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:109
@@ -116,12 +116,12 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:31
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:71
 msgid "Global settings"
-msgstr ""
+msgstr "グローバル設定"
 
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:116
 #: lib/controller/WpAdvQuiz_Controller_Admin.php:117
 msgid "Support & More"
-msgstr ""
+msgstr "サポートとその他"
 
 #: lib/controller/WpAdvQuiz_Controller_Front.php:52
 #: lib/controller/WpAdvQuiz_Controller_Front.php:72
@@ -135,25 +135,25 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:247
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:298
 msgid "Loading"
-msgstr ""
+msgstr "読み込み中"
 
 #: lib/controller/WpAdvQuiz_Controller_Front.php:53
 #: lib/controller/WpAdvQuiz_Controller_Front.php:73
 #: lib/controller/WpAdvQuiz_Controller_Preview.php:19
 msgid "You must answer this question."
-msgstr ""
+msgstr "この問題に回答する必要があります."
 
 #: lib/controller/WpAdvQuiz_Controller_Front.php:54
 #: lib/controller/WpAdvQuiz_Controller_Front.php:74
 #: lib/controller/WpAdvQuiz_Controller_Preview.php:20
 msgid "You must answer all questions before you can completed the quiz."
-msgstr "未回答の質問があります。全ての質問に答えて送信ボタンを押してください。"
+msgstr "未回答の問題があります。全ての問題に答えて送信ボタンを押してください。"
 
 #: lib/controller/WpAdvQuiz_Controller_Front.php:56
 #: lib/controller/WpAdvQuiz_Controller_Front.php:76
 #: lib/controller/WpAdvQuiz_Controller_Preview.php:22
 msgid "All fields have to be filled."
-msgstr ""
+msgstr "すべての項目に入力する必要があります."
 
 #: lib/controller/WpAdvQuiz_Controller_GlobalSettings.php:15
 #: lib/controller/WpAdvQuiz_Controller_ImportExport.php:33
@@ -176,15 +176,15 @@ msgstr ""
 #: lib/controller/WpAdvQuiz_Controller_Statistics.php:37
 #: lib/controller/WpAdvQuiz_Controller_Toplist.php:24
 msgid "You do not have sufficient permissions to access this page."
-msgstr ""
+msgstr "このページにアクセスするための十分な権限がありません."
 
 #: lib/controller/WpAdvQuiz_Controller_GlobalSettings.php:26
 msgid "Settings saved"
-msgstr ""
+msgstr "設定が保存されました"
 
 #: lib/controller/WpAdvQuiz_Controller_GlobalSettings.php:320
 msgid "Database repaired"
-msgstr ""
+msgstr "データベースが修復されました"
 
 #: lib/controller/WpAdvQuiz_Controller_ImportExport.php:43
 msgid "Unsupported expoter"
@@ -195,7 +195,7 @@ msgstr ""
 #: lib/helper/WpAdvQuiz_Helper_WaqQuizImporter.php:44
 #: lib/helper/WpAdvQuiz_Helper_WaqQuizImporter.php:50
 msgid "File cannot be processed"
-msgstr ""
+msgstr "ファイルを処理できません"
 
 #: lib/controller/WpAdvQuiz_Controller_ImportExport.php:104
 #: lib/controller/WpAdvQuiz_Controller_ImportExport.php:114
@@ -213,7 +213,7 @@ msgstr ""
 #: lib/controller/WpAdvQuiz_Controller_ImportExport.php:153
 #: lib/controller/WpAdvQuiz_Controller_QuestionImport.php:58
 msgid "Import failed"
-msgstr ""
+msgstr "インポートに失敗しました"
 
 #: lib/controller/WpAdvQuiz_Controller_Question.php:20
 #: lib/controller/WpAdvQuiz_Controller_Question.php:31
@@ -221,7 +221,7 @@ msgstr ""
 #: lib/controller/WpAdvQuiz_Controller_QuestionImport.php:112
 #: lib/controller/WpAdvQuiz_Controller_Quiz.php:99
 msgid "Quiz not found"
-msgstr ""
+msgstr "クイズが見つかりません"
 
 #: lib/controller/WpAdvQuiz_Controller_Question.php:94
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:548
@@ -229,40 +229,40 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuestionImportPreview.php:42
 #: lib/view/WpAdvQuiz_View_QuizOverallTable.php:70
 msgid "Questions"
-msgstr ""
+msgstr "問題"
 
 #: lib/controller/WpAdvQuiz_Controller_Question.php:122
 msgid "Question not found"
-msgstr ""
+msgstr "問題が見つかりません"
 
 #: lib/controller/WpAdvQuiz_Controller_Question.php:147
 msgid "Question edited"
-msgstr ""
+msgstr "問題が編集されました"
 
 #: lib/controller/WpAdvQuiz_Controller_Question.php:149
 msgid "Question added"
-msgstr ""
+msgstr "問題が追加されました"
 
 #: lib/controller/WpAdvQuiz_Controller_Question.php:169
 msgid "Edit question"
-msgstr ""
+msgstr "問題を編集"
 
 #: lib/controller/WpAdvQuiz_Controller_Question.php:169
 msgid "New question"
-msgstr ""
+msgstr "新しい問題"
 
 #: lib/controller/WpAdvQuiz_Controller_Question.php:217
 #, php-format
 msgid "Question: %d"
-msgstr ""
+msgstr "問題: %d"
 
 #: lib/controller/WpAdvQuiz_Controller_Question.php:255
 msgid "questions copied"
-msgstr ""
+msgstr "問題がコピーされました"
 
 #: lib/controller/WpAdvQuiz_Controller_QuestionExport.php:27
 msgid "Invalid arguments"
-msgstr ""
+msgstr "無効な引数"
 
 #: lib/controller/WpAdvQuiz_Controller_QuestionExport.php:34
 #: lib/controller/WpAdvQuiz_Controller_StatisticExport.php:70
@@ -273,7 +273,7 @@ msgstr ""
 
 #: lib/controller/WpAdvQuiz_Controller_QuestionImport.php:128
 msgid "Quiz Import failed"
-msgstr ""
+msgstr "クイズのインポートに失敗しました"
 
 #: lib/controller/WpAdvQuiz_Controller_Quiz.php:66
 #: lib/view/WpAdvQuiz_View_QuestionOverallTable.php:29
@@ -282,47 +282,47 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizOverallTable.php:30
 #: lib/view/WpAdvQuiz_View_QuizOverallTable.php:31
 msgid "Quiz"
-msgstr ""
+msgstr "クイズ"
 
 #: lib/controller/WpAdvQuiz_Controller_Quiz.php:142
 msgid "Quiz edited"
-msgstr ""
+msgstr "クイズが編集されました"
 
 #: lib/controller/WpAdvQuiz_Controller_Quiz.php:144
 msgid "quiz created"
-msgstr ""
+msgstr "クイズが作成されました"
 
 #: lib/controller/WpAdvQuiz_Controller_Quiz.php:167
 msgid "Quiz title or quiz description are not filled"
-msgstr ""
+msgstr "クイズのタイトルまたは説明が入力されていません"
 
 #: lib/controller/WpAdvQuiz_Controller_Quiz.php:189
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:357
 msgid "Edit quiz"
-msgstr ""
+msgstr "クイズを編集"
 
 #: lib/controller/WpAdvQuiz_Controller_Quiz.php:189
 msgid "Create quiz"
-msgstr ""
+msgstr "クイズを作成"
 
 #: lib/controller/WpAdvQuiz_Controller_Quiz.php:413
 msgid "Template stored"
-msgstr ""
+msgstr "テンプレートが保存されました"
 
 #: lib/controller/WpAdvQuiz_Controller_Quiz.php:514
 #: lib/controller/WpAdvQuiz_Controller_Quiz.php:536
 msgid "Quiz deleted"
-msgstr ""
+msgstr "クイズが削除されました"
 
 #: lib/controller/WpAdvQuiz_Controller_Quiz.php:735
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:731
 msgid "Not categorized"
-msgstr ""
+msgstr "カテゴリ設定なし"
 
 #: lib/controller/WpAdvQuiz_Controller_Quiz.php:741
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:725
 msgid "Categories"
-msgstr ""
+msgstr "カテゴリ"
 
 #: lib/controller/WpAdvQuiz_Controller_StatisticExport.php:32
 #: lib/controller/WpAdvQuiz_Controller_StatisticExport.php:39
@@ -333,20 +333,20 @@ msgstr ""
 #: lib/controller/WpAdvQuiz_Controller_Toplist.php:90
 #: lib/controller/WpAdvQuiz_Controller_Toplist.php:96
 msgid "An error has occurred."
-msgstr ""
+msgstr "エラーが発生しました."
 
 #: lib/controller/WpAdvQuiz_Controller_Statistics.php:264
 #: lib/controller/WpAdvQuiz_Controller_Statistics.php:373
 #: lib/helper/WpAdvQuiz_Helper_JsonStatisticExporter.php:100
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:715
 msgid "Anonymous"
-msgstr ""
+msgstr "匿名"
 
 #: lib/controller/WpAdvQuiz_Controller_Statistics.php:267
 #: lib/controller/WpAdvQuiz_Controller_Statistics.php:381
 #: lib/helper/WpAdvQuiz_Helper_JsonStatisticExporter.php:108
 msgid "Deleted user"
-msgstr ""
+msgstr "削除されたユーザー"
 
 #: lib/controller/WpAdvQuiz_Controller_Statistics.php:343
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:121
@@ -354,38 +354,38 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:951
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:490
 msgid "No category"
-msgstr ""
+msgstr "カテゴリなし"
 
 #: lib/controller/WpAdvQuiz_Controller_Toplist.php:107
 #: lib/controller/WpAdvQuiz_Controller_Toplist.php:116
 msgid "You can not enter again."
-msgstr ""
+msgstr "もう一度入力することはできません."
 
 #: lib/controller/WpAdvQuiz_Controller_Toplist.php:120
 msgid "No name or e-mail entered."
-msgstr ""
+msgstr "名前またはメールアドレスが入力されていません."
 
 #: lib/controller/WpAdvQuiz_Controller_Toplist.php:124
 msgid "Your name can not exceed 15 characters."
-msgstr ""
+msgstr "名前は15文字を超えることはできません."
 
 #: lib/controller/WpAdvQuiz_Controller_Toplist.php:132
 msgid "You entered wrong captcha code."
-msgstr ""
+msgstr "正しくないキャプチャコードが入力されました."
 
 #: lib/controller/WpAdvQuiz_Controller_Toplist.php:259
 msgid "You signed up successfully."
-msgstr ""
+msgstr "正常に登録されました."
 
 #: lib/helper/WpAdvQuiz_Helper_Form.php:105
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:649
 msgid "ticked"
-msgstr ""
+msgstr "チェック"
 
 #: lib/helper/WpAdvQuiz_Helper_Form.php:105
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:649
 msgid "not ticked"
-msgstr ""
+msgstr "チェックされていません"
 
 #: lib/helper/WpAdvQuiz_Helper_Form.php:108
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:475
@@ -401,18 +401,18 @@ msgstr ""
 
 #: lib/helper/WpAdvQuiz_Helper_GutenbergBlock.php:73
 msgid "Please select quiz"
-msgstr ""
+msgstr "クイズを選択してください"
 
 #: lib/helper/WpAdvQuiz_Helper_XmlQuizImporter.php:22
 msgid "XML could not be loaded."
-msgstr ""
+msgstr "XMLを読み込めませんでした."
 
 #: lib/model/WpAdvQuiz_Model_Email.php:102
 #: lib/model/WpAdvQuiz_Model_Email.php:112
 #: lib/model/WpAdvQuiz_Model_GlobalSettingsMapper.php:56
 #: lib/model/WpAdvQuiz_Model_GlobalSettingsMapper.php:94
 msgid "Wp-Adv-Quiz: One user completed a quiz"
-msgstr ""
+msgstr "Wp-Adv-Quiz: ユーザーがクイズを回答しました"
 
 #: lib/model/WpAdvQuiz_Model_Email.php:103
 #: lib/model/WpAdvQuiz_Model_GlobalSettingsMapper.php:58
@@ -425,6 +425,13 @@ msgid ""
 "Result: $result\n"
 "\n"
 msgstr ""
+"Wp-Adv-Quiz\n"
+"\n"
+"ユーザー “$username” が “$quizname“クイズを回答しました。\n"
+"\n"
+"“ポイント: $points\n"
+"“結果: $result\n"
+"\n"
 
 #: lib/model/WpAdvQuiz_Model_Email.php:113
 #: lib/model/WpAdvQuiz_Model_GlobalSettingsMapper.php:96
@@ -437,19 +444,26 @@ msgid ""
 "Result: $result\n"
 "\n"
 msgstr ""
+"Wp-Adv-Quiz\n"
+"\n"
+"あなたはクイズ $quizname を回答しました。\n"
+"\n"
+"ポイント: $points\n"
+"結果: $result\n"
+"\n"
 
 #: lib/plugin/WpAdvQuiz_Plugin_BpAchievementsV2.php:41
 #: lib/plugin/WpAdvQuiz_Plugin_BpAchievementsV3.php:9
 msgid "The user completed a quiz."
-msgstr ""
+msgstr "ユーザーがクイズを回答しました."
 
 #: lib/plugin/WpAdvQuiz_Plugin_BpAchievementsV3.php:10
 msgid "The user completed a quiz with 100 percent."
-msgstr ""
+msgstr "ユーザーが100％のクイズを回答しました."
 
 #: lib/plugin/WpAdvQuiz_Plugin_BpAchievementsV3.php:21
 msgid "A powerful and beautiful quiz plugin for WordPress."
-msgstr ""
+msgstr "WordPress向けの強力で美しいクイズプラグイン."
 
 #: lib/plugin/WpAdvQuiz_Plugin_BpAchievementsV3.php:24
 msgid "WP-Adv-Quiz"
@@ -462,7 +476,7 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1426
 #: lib/view/WpAdvQuiz_View_QuizOverallTable.php:93
 msgid "Leaderboard"
-msgstr ""
+msgstr "リーダーボード"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:18
 #: lib/view/WpAdvQuiz_View_Import.php:35
@@ -474,7 +488,7 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:90
 #: lib/view/WpAdvQuiz_View_StyleManager.php:14
 msgid "back to overview"
-msgstr ""
+msgstr "概要に戻る"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:23
 #: lib/view/WpAdvQuiz_View_QuestionOverallTable.php:133
@@ -486,26 +500,26 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:262
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:286
 msgid "Filter"
-msgstr ""
+msgstr "フィルター"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:29
 msgid "Sort by:"
-msgstr ""
+msgstr "並べ替え："
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:32
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1521
 msgid "best user"
-msgstr ""
+msgstr "ベストユーザー"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:35
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1526
 msgid "newest entry"
-msgstr ""
+msgstr "最新のエントリー"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:38
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1531
 msgid "oldest entry"
-msgstr ""
+msgstr "最古のエントリー"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:45
 #: lib/view/WpAdvQuiz_View_Statistics.php:244
@@ -513,35 +527,35 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:167
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:274
 msgid "How many entries should be shown on one page:"
-msgstr ""
+msgstr "1ページに表示されるエントリーの数："
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:57
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:80
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1841
 msgid "Type"
-msgstr ""
+msgstr "タイプ"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:58
 msgid "UR = unregistered user, R = registered user"
-msgstr ""
+msgstr "UR = 未登録ユーザー、R = 登録ユーザー"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:78
 #: lib/view/WpAdvQuiz_View_Statistics.php:263
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:691
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:153
 msgid "User"
-msgstr ""
+msgstr "ユーザー"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:79
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:274
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:275
 msgid "E-Mail"
-msgstr ""
+msgstr "メールアドレス"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:81
 #: lib/view/WpAdvQuiz_View_FrontToplist.php:25
 msgid "Entered on"
-msgstr ""
+msgstr "入力日"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:82
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:1014
@@ -559,7 +573,7 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:206
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:692
 msgid "Points"
-msgstr ""
+msgstr "ポイント"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:83
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:681
@@ -570,7 +584,7 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:214
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:698
 msgid "Results"
-msgstr ""
+msgstr "結果"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:97
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:201
@@ -580,7 +594,7 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuestionOverallTable.php:71
 #: lib/view/WpAdvQuiz_View_QuizOverallTable.php:75
 msgid "Edit"
-msgstr ""
+msgstr "編集"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:100
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:129
@@ -596,27 +610,27 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:71
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:744
 msgid "Delete"
-msgstr ""
+msgstr "削除"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:106
 msgid "save"
-msgstr ""
+msgstr "保存"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:108
 msgid "cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:128
 msgid "Action"
-msgstr ""
+msgstr "アクション"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:131
 msgid "Apply"
-msgstr ""
+msgstr "適用"
 
 #: lib/view/WpAdvQuiz_View_AdminToplist.php:134
 msgid "Delete all entries"
-msgstr ""
+msgstr "すべてのエントリーを削除"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:24
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:332
@@ -643,31 +657,31 @@ msgstr ""
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:28
 msgid "Quiz is loading..."
-msgstr ""
+msgstr "クイズが読み込まれています…"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:29
 msgid ""
 "You have already completed the quiz before. Hence you can not start it again."
-msgstr ""
+msgstr "以前にクイズを完了しています。再度開始できません。"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:31
 msgid "You must sign in or sign up to start the quiz."
-msgstr ""
+msgstr "クイズを開始するにはユーザーログインする必要があります。"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:32
 msgid "You have to finish following quiz, to start this quiz:"
-msgstr ""
+msgstr "このクイズを開始するには、次のクイズを完了する必要があります："
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:259
 msgid "Your result has been entered into leaderboard"
-msgstr ""
+msgstr "結果がリーダーボードに登録されました"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:269
 #: lib/view/WpAdvQuiz_View_FrontToplist.php:24
 #: lib/view/WpAdvQuiz_View_QuestionOverallTable.php:18
 #: lib/view/WpAdvQuiz_View_QuizOverallTable.php:18
 msgid "Name"
-msgstr ""
+msgstr "名前"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:284
 msgid "Captcha"
@@ -675,120 +689,120 @@ msgstr ""
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:291
 msgid "Send"
-msgstr ""
+msgstr "送信"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:389
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:489
 msgid "You must fill out this field."
-msgstr "必須項目を入力してください。"
+msgstr "項目を選択してください。"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:392
 msgid "You must specify a number."
-msgstr "必須項目を入力してください。"
+msgstr "数値を入力してください。"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:393
 msgid "You must specify a text."
-msgstr "必須項目を入力してください。"
+msgstr "テキストを入力してください。"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:394
 msgid "You must specify an email address."
-msgstr "必須項目を入力してください。"
+msgstr "メールアドレスを入力してください。"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:395
 msgid "You must specify a date."
-msgstr "必須項目を入力してください。"
+msgstr "日付を入力してください。"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:545
 #, php-format
 msgid "%s of %s questions completed"
-msgstr ""
+msgstr "%s / %s 問が完了"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:565
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:583
 msgid "Information"
-msgstr ""
+msgstr "情報"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:627
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:337
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:342
 msgid "Time limit"
-msgstr ""
+msgstr "制限時間"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:649
 msgid "Answered"
-msgstr ""
+msgstr "回答"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:653
 msgid "Review"
-msgstr ""
+msgstr "レビュー"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:660
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:362
 msgid "Review question"
-msgstr ""
+msgstr "問題をレビュー"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:684
 #, php-format
 msgid "%s of %s questions answered correctly"
-msgstr ""
+msgstr "%s / %s 問が正しく回答されました"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:690
 msgid "Your time: <span></span>"
-msgstr ""
+msgstr "経過時間： <span></span>"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:694
 msgid "Time has elapsed"
-msgstr ""
+msgstr "時間切れです"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:698
 #, php-format
 msgid "You have reached %s of %s points, (%s)"
-msgstr ""
+msgstr "あなたは %s / %s ポイントを獲得しました、(%s)"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:707
 msgid "Average score"
-msgstr ""
+msgstr "平均スコア"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:714
 msgid "Your score"
-msgstr ""
+msgstr "あなたのスコア"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:771
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:482
 msgid "View questions"
-msgstr ""
+msgstr "問題を表示"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:776
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:497
 msgid "Show leaderboard"
-msgstr ""
+msgstr "リーダーボードを表示"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:839
 #, php-format
 msgid "Question %s of %s"
-msgstr ""
+msgstr "問題 %s / %s"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:844
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:143
 #: lib/view/WpAdvQuiz_View_Statistics.php:121
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:205
 msgid "Question"
-msgstr ""
+msgstr "問題"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:848
 #, php-format
 msgid "%d points"
-msgstr ""
+msgstr "%d ポイント"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:855
 #, php-format
 msgid "Category: %s"
-msgstr ""
+msgstr "カテゴリ: %s"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:865
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:441
 msgid "Sort elements"
-msgstr ""
+msgstr "要素の並び替え"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:1011
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:1021
@@ -800,7 +814,7 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:413
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:693
 msgid "Correct"
-msgstr ""
+msgstr "正解"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:1038
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:1048
@@ -810,70 +824,70 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:208
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:694
 msgid "Incorrect"
-msgstr ""
+msgstr "不正解"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:1075
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:1095
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:407
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:201
 msgid "Hint"
-msgstr ""
+msgstr "ヒント"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:1084
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:467
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:662
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:667
 msgid "Skip question"
-msgstr ""
+msgstr "問題をスキップ"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:1090
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:422
 msgid "Back"
-msgstr ""
+msgstr "戻る"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:1100
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:437
 msgid "Check"
-msgstr ""
+msgstr "チェック"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:1104
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:452
 msgid "Next"
-msgstr ""
+msgstr "次へ"
 
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:1121
 #: lib/view/WpAdvQuiz_View_FrontQuiz.php:1124
 #, php-format
 msgid "Page %d"
-msgstr ""
+msgstr "ページ %d"
 
 #: lib/view/WpAdvQuiz_View_FrontToplist.php:20
 #, php-format
 msgid "maximum of %s points"
-msgstr ""
+msgstr "最大 %s ポイント"
 
 #: lib/view/WpAdvQuiz_View_FrontToplist.php:23
 msgid "Pos."
-msgstr ""
+msgstr "順位."
 
 #: lib/view/WpAdvQuiz_View_FrontToplist.php:27
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:107
 msgid "Result"
-msgstr ""
+msgstr "結果"
 
 #: lib/view/WpAdvQuiz_View_FrontToplist.php:32
 msgid "Table is loading"
-msgstr ""
+msgstr "テーブルを読み込んでいます"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:32
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:306
 msgid "Color settings"
-msgstr ""
+msgstr "カラー設定"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:33
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:536
 msgid "Settings in case of problems"
-msgstr ""
+msgstr "問題が発生した場合の設定"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:58
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:337
@@ -883,86 +897,86 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:51
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:513
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:78
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:83
 msgid "Leaderboard time format"
-msgstr ""
+msgstr "リーダーボードの時間形式"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:125
 msgid "Custom"
-msgstr ""
+msgstr "カスタム"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:132
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:171
 msgid "Documentation on date and time formatting"
-msgstr ""
+msgstr "日付と時刻のフォーマットに関するドキュメント"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:141
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:146
 msgid "Statistic time format"
-msgstr ""
+msgstr "統計の時間形式"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:150
 msgid "Select example:"
-msgstr ""
+msgstr "例を選択："
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:164
 msgid "Time format:"
-msgstr ""
+msgstr "時間形式："
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:181
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:186
 msgid "Category management"
-msgstr ""
+msgstr "カテゴリの管理"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:210
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:215
 msgid "Quiz Category management"
-msgstr ""
+msgstr "クイズカテゴリの管理"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:239
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:244
 msgid "Quiz template management"
-msgstr ""
+msgstr "クイズテンプレートの管理"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:267
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:272
 msgid "Question template management"
-msgstr ""
+msgstr "問題テンプレートの管理"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:312
 msgid "Button Properties"
-msgstr ""
+msgstr "ボタンのプロパティ"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:317
 msgid "Button Name"
-msgstr ""
+msgstr "ボタン名"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:320
 msgid "Button Width"
-msgstr ""
+msgstr "ボタンの幅"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:324
 msgid "Button Height"
-msgstr ""
+msgstr "ボタンの高さ"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:327
 msgid "Button Color"
-msgstr ""
+msgstr "ボタンの色"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:521
 msgid "to activate"
-msgstr ""
+msgstr "アクティベートする"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:523
 msgid "not to activate"
-msgstr ""
+msgstr "アクティベートしない"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:529
 msgid "Please note"
-msgstr ""
+msgstr "ご注意"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:532
 msgid ""
@@ -1481,8 +1495,8 @@ msgstr ""
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:584
 msgid ""
-"e.g. \"I {play} soccer, with a {ball|3}\" - \"play\" gives 1 point and "
-"\"ball\" 3 points."
+"e.g. \"I {play} soccer, with a {ball|3}\" - \"play\" gives 1 point and \"ball"
+"\" 3 points."
 msgstr ""
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:602
@@ -2038,8 +2052,8 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:880
 #, php-format
 msgid ""
-"(Will be displayed, when result-percent is >= <span "
-"class=\"resultProzent\">%s</span>%%)"
+"(Will be displayed, when result-percent is >= <span class=\"resultProzent\">"
+"%s</span>%%)"
 msgstr ""
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:860
