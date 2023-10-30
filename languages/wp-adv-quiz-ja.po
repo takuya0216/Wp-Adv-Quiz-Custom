@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP-Adv-Quiz\n"
 "POT-Creation-Date: 2023-04-09 16:48+0200\n"
-"PO-Revision-Date: 2023-10-30 14:09+0900\n"
+"PO-Revision-Date: 2023-10-30 14:28+0900\n"
 "Last-Translator: \n"
 "Language-Team: Markus Begerow\n"
 "Language: ja_JP\n"
@@ -981,12 +981,12 @@ msgstr "ご注意"
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:532
 msgid ""
 "These settings should only be set in cases of problems with Wp-Adv-Quiz."
-msgstr ""
+msgstr "これらの設定は、Wp-Adv-Quizに問題が発生した場合にのみ設定すべきです."
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:542
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:547
 msgid "Automatically add [raw] shortcode"
-msgstr ""
+msgstr "[raw] ショートコードを自動的に追加"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:552
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:583
@@ -1030,45 +1030,52 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2148
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2208
 msgid "Activate"
-msgstr ""
+msgstr "有効"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:553
 #, php-format
 msgid "It is recommended %s this option on your system."
-msgstr ""
+msgstr "お使いのシステムで %s このオプションを推奨します。"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:559
 msgid ""
 "If this option is activated, a [raw] shortcode is automatically set around "
 "WpAdvQuiz shortcode ( [WpAdvQuiz X] ) into [raw] [WpAdvQuiz X] [/raw]"
 msgstr ""
+"このオプションがアクティベートされている場合、[raw] ショートコードが自動的に"
+"WpAdvQuiz ショートコード ([WpAdvQuiz X]) の周りに設定され、[raw] [WpAdvQuiz "
+"X] [/raw] になります。"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:564
 msgid ""
 "Own themes changes internal  order of filters, what causes the problems. "
 "With additional shortcode [raw] this is prevented."
 msgstr ""
+"独自のテーマはフィルターの内部順序を変更し、問題を引き起こすことがあります。"
+"追加のショートコード[raw] でこれを防ぎます。"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:572
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:577
 msgid "Do not load the Javascript-files in the footer"
-msgstr ""
+msgstr "JavaScriptファイルをフッターで読み込まない"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:587
 msgid ""
 "Generally all WpAdvQuiz-Javascript files are loaded in the footer and only "
 "when they are really needed."
 msgstr ""
+"通常、すべての WpAdvQuiz-JavaScript ファイルはフッターに読み込まれ、本当に必"
+"要な場合にのみ読み込まれます."
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:592
 msgid "In very old Wordpress themes this can lead to problems."
-msgstr ""
+msgstr "非常に古いWordPressテーマでは問題が発生する可能性があります."
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:596
 msgid ""
 "If you activate this option, all WpAdvQuiz-Javascript files are loaded in "
 "the header even if they are not needed."
-msgstr ""
+msgstr "WpAdvQuiz-JavaScriptファイルは必要なくてもヘッダーに読み込まれます。"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:601
 #, php-format
@@ -1076,6 +1083,8 @@ msgid ""
 "Anyone who wants to learn more about this topic should read through the "
 "following websites %s and %s."
 msgstr ""
+"このトピックについて詳しく知りたい方は、次のウェブサイト %s と %s を参照して"
+"ください."
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:611
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:616
@@ -1089,7 +1098,7 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1265
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1985
 msgid "Deactivate"
-msgstr ""
+msgstr "無効"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:625
 msgid "In Version 0.13 a new Touch Library was added for mobile devices."
