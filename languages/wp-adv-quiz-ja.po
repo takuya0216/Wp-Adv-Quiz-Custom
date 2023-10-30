@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP-Adv-Quiz\n"
 "POT-Creation-Date: 2023-04-09 16:48+0200\n"
-"PO-Revision-Date: 2023-10-30 14:28+0900\n"
+"PO-Revision-Date: 2023-10-30 20:40+0900\n"
 "Last-Translator: \n"
 "Language-Team: Markus Begerow\n"
 "Language: ja_JP\n"
@@ -1103,10 +1103,12 @@ msgstr "無効"
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:625
 msgid "In Version 0.13 a new Touch Library was added for mobile devices."
 msgstr ""
+"バージョン 0.13 で、モバイルデバイス向けに新しいタッチライブラリが追加されま"
+"した。"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:630
 msgid "If you have any problems with the Touch Library, please deactivate it."
-msgstr ""
+msgstr "タッチライブラリに問題がある場合は、無効にしてください。"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:638
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:643
@@ -1115,25 +1117,25 @@ msgstr ""
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:652
 msgid "Is required only in rare cases."
-msgstr ""
+msgstr "通常は無効にしてください."
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:656
 msgid "If you have problems with the front ajax, please activate it."
-msgstr ""
+msgstr "フロントのajaxに問題がある場合は、有効にしてください。"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:661
 msgid "e.g. Domain with special characters in combination with IE"
-msgstr ""
+msgstr "例: IEと特殊文字を組み合わせたドメイン"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:669
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:674
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:677
 msgid "Repair database"
-msgstr ""
+msgstr "データベースの修復"
 
 #: lib/view/WpAdvQuiz_View_GobalSettings.php:680
 msgid "No date will be deleted. Only WP-Adv-Quiz tables will be repaired."
-msgstr ""
+msgstr "日付は削除されません。WP-Adv-Quiz のテーブルのみが修復されます。"
 
 #: lib/view/WpAdvQuiz_View_Import.php:33
 #: lib/view/WpAdvQuiz_View_QuestionImportPreview.php:32
@@ -1143,55 +1145,55 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:346
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:395
 msgid "Import"
-msgstr ""
+msgstr "インポート"
 
 #: lib/view/WpAdvQuiz_View_Import.php:39
 msgid "Error"
-msgstr ""
+msgstr "エラー"
 
 #: lib/view/WpAdvQuiz_View_Import.php:48
 msgid "Successfully"
-msgstr ""
+msgstr "正常に完了"
 
 #: lib/view/WpAdvQuiz_View_Import.php:51
 msgid "Import completed successfully"
-msgstr ""
+msgstr "インポートが正常に完了しました"
 
 #: lib/view/WpAdvQuiz_View_Import.php:60
 msgid "Quiz name"
-msgstr ""
+msgstr "クイズ名"
 
 #: lib/view/WpAdvQuiz_View_Import.php:90
 #: lib/view/WpAdvQuiz_View_QuestionImportPreview.php:62
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:552
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:411
 msgid "Start import"
-msgstr ""
+msgstr "インポートを開始"
 
 #: lib/view/WpAdvQuiz_View_InfoAdaptation.php:10
 msgid "WP-Adv-Quiz special modification"
-msgstr ""
+msgstr "WP-Adv-Quiz の特別なカスタマイズ"
 
 #: lib/view/WpAdvQuiz_View_InfoAdaptation.php:12
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:329
 msgid "You need special WP-Adv-Quiz modification for your website?"
-msgstr ""
+msgstr "ウェブサイトに特別な WP-Adv-Quiz の変更が必要ですか？"
 
 #: lib/view/WpAdvQuiz_View_InfoAdaptation.php:14
 msgid "We offer you:"
-msgstr ""
+msgstr "以下のものを提供します："
 
 #: lib/view/WpAdvQuiz_View_InfoAdaptation.php:16
 msgid "Design adaption for your theme"
-msgstr ""
+msgstr "テーマのデザインの適応"
 
 #: lib/view/WpAdvQuiz_View_InfoAdaptation.php:17
 msgid "Creation of additional modules for your needs"
-msgstr ""
+msgstr "必要に応じた追加モジュールの作成"
 
 #: lib/view/WpAdvQuiz_View_InfoAdaptation.php:18
 msgid "Premium Support"
-msgstr ""
+msgstr "プレミアムサポート"
 
 #: lib/view/WpAdvQuiz_View_InfoAdaptation.php:21
 msgid "Contact us:"
@@ -1202,21 +1204,25 @@ msgid ""
 "After receiving your e-mail we will verify your request on feasibility. "
 "After this you will receive e-mail from us with further details and offer."
 msgstr ""
+"メールを受信した後、お問い合わせの実現可能性を確認します。その後、詳細とオ"
+"ファーを含む当社からのメールを受け取ります。"
 
 #: lib/view/WpAdvQuiz_View_InfoAdaptation.php:32
 msgid ""
 "Extended support in first 6 months. Reported bugs and updates of WP Pro Quiz "
 "are supported. Exception are major releases (update of main version)"
 msgstr ""
+"最初の6ヶ月間の拡張サポート。報告されたバグおよび WP Pro Quiz の更新はサポー"
+"トされます。例外はメジャーリリース（メインバージョンの更新）です。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:38
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:39
 msgid "load template"
-msgstr ""
+msgstr "テンプレートを読み込む"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:47
 msgid "Title"
-msgstr ""
+msgstr "タイトル"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:47
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:102
@@ -1227,13 +1233,15 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:933
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1411
 msgid "(optional)"
-msgstr ""
+msgstr "(任意)"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:52
 msgid ""
 "The title is used for overview, it is not visible in quiz. If you leave the "
 "title field empty, a title will be generated."
 msgstr ""
+"このタイトルは概要に使用され、クイズでは表示されません。タイトルフィールドを"
+"空白のままにすると、タイトルが生成されます。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:60
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:143
@@ -1242,29 +1250,29 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:979
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1621
 msgid "(required)"
-msgstr ""
+msgstr "(必須)"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:66
 msgid "Points for this question (Standard is 1 point)"
-msgstr ""
+msgstr "この問題のポイント（標準は1ポイント）"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:75
 msgid ""
 "This points will be rewarded, only if the user closes the question correctly."
-msgstr ""
+msgstr "ユーザーが問題に正解した場合にのみ付与されます。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:83
 msgid "Different points for each answer"
-msgstr ""
+msgstr "回答毎に異なるポイント設定"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:87
 msgid ""
 "If you enable this option, you can enter different points for every answer."
-msgstr ""
+msgstr "各回答に異なるポイントを入力できるようになります。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:95
 msgid "Show reached points in the correct- and incorrect message?"
-msgstr ""
+msgstr "正解および不正解メッセージで獲得ポイントを表示しますか？"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:102
 #: lib/view/WpAdvQuiz_View_QuestionOverallTable.php:19
@@ -1273,20 +1281,22 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_Statistics.php:142
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:226
 msgid "Category"
-msgstr ""
+msgstr "カテゴリー"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:107
 msgid ""
 "You can assign classify category for a question. Categories are e.g. visible "
 "in statistics function."
 msgstr ""
+"問題を分類するためにカテゴリーを割り当てることができます。カテゴリーは、統計"
+"機能で表示されます。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:112
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:440
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:942
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:484
 msgid "You can manage categories in global settings."
-msgstr ""
+msgstr "グローバル設定でカテゴリーを管理できます。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:117
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:131
@@ -1297,26 +1307,26 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:489
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:501
 msgid "Create new category"
-msgstr ""
+msgstr "新しいカテゴリーを作成"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:134
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:456
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:964
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:504
 msgid "Create"
-msgstr ""
+msgstr "作成"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:154
 msgid "Message with the correct / incorrect answer"
-msgstr ""
+msgstr "正解 / 不正解の回答に関するメッセージ"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:158
 msgid "Deactivated in quiz settings."
-msgstr ""
+msgstr "クイズ設定で無効になっています。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:163
 msgid "Message with the correct answer"
-msgstr ""
+msgstr "正解の回答に関するメッセージ"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:168
 msgid ""
@@ -1324,14 +1334,16 @@ msgid ""
 "explanation for complex questions. The message \"Right\" or \"Wrong\" is "
 "always displayed automatically."
 msgstr ""
+"このテキストは、正解した場合に表示されます。複雑な問題の説明として使用できま"
+"す。「正解」または「不正解」は常に自動的に表示されます。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:174
 msgid "Same text for correct- and incorrect-message?"
-msgstr ""
+msgstr "正解メッセージと不正解メッセージに同じテキストを使用しますか？"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:185
 msgid "Message with the incorrect answer"
-msgstr ""
+msgstr "不正解の回答に関するメッセージ"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:190
 msgid ""
@@ -1339,18 +1351,20 @@ msgid ""
 "explanation for complex questions. The message \"Right\" or \"Wrong\" is "
 "always displayed automatically."
 msgstr ""
+"このテキストは、不正解の場合に表示されます。複雑な問題の説明として使用できま"
+"す。「正解」または「不正解」は常に自動的に表示されます。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:206
 msgid "Here you can enter solution hint."
-msgstr ""
+msgstr "ヒントを入力できます。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:211
 msgid "Activate hint for this question?"
-msgstr ""
+msgstr "ヒントを有効にしますか？"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:224
 msgid "Answer type"
-msgstr ""
+msgstr "回答タイプ"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:234
 msgid "Single choice"
@@ -1374,43 +1388,48 @@ msgstr ""
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:259
 msgid "Cloze"
-msgstr ""
+msgstr "穴埋め式"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:264
 msgid "Assessment"
-msgstr ""
+msgstr "アセスメント"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:270
 msgid "Answers"
-msgstr ""
+msgstr "回答"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:279
 msgid ""
 "Please sort the answers in right order with the \"Move\" - Button. The "
 "answers will be displayed randomly."
 msgstr ""
+"「移動」ボタンを使って回答を正しい順序に並べてください。回答はランダムに表示"
+"されます。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:286
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:293
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:322
 msgid "Add new answer"
-msgstr ""
+msgstr "新しい回答を追加"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:297
 msgid ""
 "In this mode, not a list have to be sorted, but elements must be assigned to "
 "matching criterion."
 msgstr ""
+"このモードでは、リストをソートする必要はありませんが、要素は一致する基準に割"
+"り当てる必要があります。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:302
 msgid ""
 "You can create sort elements with empty criteria, which can't be assigned by "
 "user."
 msgstr ""
+"ユーザーによって割り当てられない空の基準を持つ並べ替え要素を作成できます。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:307
 msgid "Percentage width of criteria table column:"
-msgstr ""
+msgstr "基準テーブル列の幅の割合："
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:314
 msgid ""
@@ -1418,21 +1437,24 @@ msgid ""
 "fill the rest of the available space. Increase this to allow accommodate "
 "longer criterion text. Defaults to 20%."
 msgstr ""
+"左側の列の幅の調整を許可し、右側の列は利用可能なスペースの残りを自動的に埋め"
+"ます。より長い基準テキストを収容するためにこれを増やします。デフォルトは 20% "
+"です。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:340
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:54
 msgid "template name"
-msgstr ""
+msgstr "テンプレート名"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:343
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:57
 msgid "Create new template"
-msgstr ""
+msgstr "新しいテンプレートを作成"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:352
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:66
 msgid "Save as template"
-msgstr ""
+msgstr "テンプレートとして保存"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:375
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:437
@@ -1440,53 +1462,55 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:108
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:209
 msgid "Options"
-msgstr ""
+msgstr "オプション"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:377
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:505
 msgid "Answer"
-msgstr ""
+msgstr "回答"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:395
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:468
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:475
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:515
 msgid "Allow HTML"
-msgstr ""
+msgstr "HTMLを使用"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:415
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:483
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:535
 msgid "Delete answer"
-msgstr ""
+msgstr "回答を削除"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:416
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:484
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:536
 msgid "Add Media"
-msgstr ""
+msgstr "メディアを追加"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:417
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:485
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:537
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1938
 msgid "Move"
-msgstr ""
+msgstr "移動"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:439
 msgid "Criterion"
-msgstr ""
+msgstr "基準"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:553
 msgid ""
 "correct answers (one per line) (answers will be converted to lower case)"
-msgstr ""
+msgstr "正しい回答 (1行ごと) (回答は小文字に変換されます)"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:572
 msgid ""
 "Enclose the searched words with { } e.g. \"I {play} soccer\". Capital and "
 "small letters will be ignored."
 msgstr ""
+"検索ワードを { } で囲んでください。例: \\”I {play} soccer\\”。大文字と小文字"
+"は無視されます。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:576
 msgid ""
@@ -1495,39 +1519,48 @@ msgid ""
 "{[play][love][hate]} soccer\" </span>. In this case answers play, love OR "
 "hate are correct."
 msgstr ""
+"検索ワードに複数のオプションを指定できます。[ ] で単語を囲みます。例: <span "
+"style=\\”font-style: normal; letter-spacing: 2px;\\”> \\”I {[play][love]"
+"[hate]} soccer\\” </span>。この場合、回答として play、love、またはhate が正し"
+"いです。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:580
 msgid ""
 "If mode \"Different points for every answer\" is activated, you can assign "
 "points with |POINTS. Otherwise 1 point will be awarded for every answer."
 msgstr ""
+"「回答ごとに異なるポイント設定」が有効の場合、|POINTS でポイントを割り当てる"
+"ことができます。それ以外の場合、すべての回答に対して 1 ポイントが授与されま"
+"す。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:584
 msgid ""
 "e.g. \"I {play} soccer, with a {ball|3}\" - \"play\" gives 1 point and \"ball"
 "\" 3 points."
 msgstr ""
+"例: \\”I {play} soccer, with a {ball|3}\\” - 「play」は 1 ポイント、そして"
+"「ball」は 3 ポイントを与えます。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:602
 msgid "Here you can create an assessment question."
-msgstr ""
+msgstr "ここで評価問題を作成できます。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:605
 msgid ""
 "Enclose a assesment with {}. The individual assessments are marked with []."
-msgstr ""
+msgstr "評価を { } で囲みます。個々の評価は [] でマークされます。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:607
 msgid "The number of options in the maximum score."
-msgstr ""
+msgstr "最大スコアのオプション数。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:610
 msgid "Examples:"
-msgstr ""
+msgstr "例:"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:612
 msgid "less true { [1] [2] [3] [4] [5] } more true"
-msgstr ""
+msgstr "より少ない true { [1] [2] [3] [4] [5] } より多い true"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:615
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:626
@@ -1555,11 +1588,11 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1820
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1846
 msgid "Demo"
-msgstr ""
+msgstr "デモ"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:623
 msgid "less true { [a] [b] [c] } more true"
-msgstr ""
+msgstr "より少ない true { [a] [b] [c] } より多い true"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:646
 msgid "Single choice options"
@@ -1570,88 +1603,90 @@ msgid ""
 "If \"Different points for each answer\" is activated, you can activate a "
 "special mode.<br> This changes the calculation of the points"
 msgstr ""
+"「回答ごとに異なるポイント設定」が有効の場合、特別なモードをアクティブにでき"
+"ます。<br> これはポイントの計算を変更します"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:656
 msgid "Different points - modus 2 activate"
-msgstr ""
+msgstr "異なるポイント - モード 2 をアクティブにする"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:661
 msgid "Disables the distinction between correct and incorrect."
-msgstr ""
+msgstr "正解と不正解の区別を無効にします。"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:666
 msgid "disable correct and incorrent"
-msgstr ""
+msgstr "正解と不正解を無効にする"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:670
 msgid "Explanation of points calculation"
-msgstr ""
+msgstr "ポイント計算の説明"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:691
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:696
 msgid "\"Different points for each answer\" enabled"
-msgstr ""
+msgstr "「回答ごとに異なるポイント設定」が有効になっています"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:693
 msgid "\"Different points - mode 2\" disable"
-msgstr ""
+msgstr "「異なるポイント - モード 2」を無効にする"
 
 #: lib/view/WpAdvQuiz_View_QuestionEdit.php:698
 msgid "\"Different points - mode 2\" enabled"
-msgstr ""
+msgstr "「異なるポイント - モード 2」が有効になっています"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:339
 #, php-format
 msgid "Quiz: %s"
-msgstr ""
+msgstr "クイズ: %s"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:342
 msgid "Add question"
-msgstr ""
+msgstr "問題を追加"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:358
 msgid "Sort Question"
-msgstr ""
+msgstr "問題をソート"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:359
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:400
 msgid "Copy questions from another Quiz"
-msgstr ""
+msgstr "別のクイズから問題をコピー"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:383
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:359
 msgid "Search"
-msgstr ""
+msgstr "検索"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:401
 msgid ""
 "Here you can copy questions from another quiz into this quiz. (Multiple "
 "selection enabled)"
-msgstr ""
+msgstr "別のクイズから問題をコピーできます。（複数選択が有効）"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:413
 msgid "Copy questions"
-msgstr ""
+msgstr "問題をコピー"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:427
 msgid "Set Question Categories"
-msgstr ""
+msgstr "問題カテゴリを設定"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:428
 msgid "Sets multiple question categories"
-msgstr ""
+msgstr "複数の問題カテゴリを設定します"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:437
 msgid "You can assign classify category for a question."
-msgstr ""
+msgstr "問題に分類カテゴリを割り当てることができます。"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:459
 msgid "Category saved"
-msgstr ""
+msgstr "カテゴリが保存されました"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:477
 msgid "Sort questions"
-msgstr ""
+msgstr "問題を並べ替え"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:500
 #: lib/view/WpAdvQuiz_View_QuestionOverallTable.php:100
@@ -1664,62 +1699,62 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:317
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:338
 msgid "Export"
-msgstr ""
+msgstr "エクスポート"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:502
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:437
 msgid ""
 "Choose the respective question, which you would like to export and press on "
 "\"Start export\""
-msgstr ""
+msgstr "エクスポートしたい問題を選択し、「エクスポートの開始」を押してください"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:511
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:443
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:345
 msgid "Format:"
-msgstr ""
+msgstr "フォーマット："
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:521
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:453
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:355
 msgid "Start export"
-msgstr ""
+msgstr "エクスポートの開始"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:539
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:397
 msgid "Import only files from known and trusted sources."
-msgstr ""
+msgstr "信頼できる知られたソースからのファイルのみをインポートします。"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:540
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:398
 #, php-format
 msgid "Supported formats: %s"
-msgstr ""
+msgstr "サポートされているフォーマット：%s"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverall.php:549
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:408
 #, php-format
 msgid "Maximal %d MiB"
-msgstr ""
+msgstr "最大 %d MiB"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverallTable.php:104
 #: lib/view/WpAdvQuiz_View_QuizOverallTable.php:114
 msgid "Set Category"
-msgstr ""
+msgstr "カテゴリを設定"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverallTable.php:118
 #: lib/view/WpAdvQuiz_View_QuizOverallTable.php:128
 msgid "Filter by category"
-msgstr ""
+msgstr "カテゴリでフィルター"
 
 #: lib/view/WpAdvQuiz_View_QuestionOverallTable.php:120
 #: lib/view/WpAdvQuiz_View_QuizOverallTable.php:130
 msgid "All categories"
-msgstr ""
+msgstr "すべてのカテゴリ"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:106
 msgid "General"
-msgstr ""
+msgstr "一般"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:109
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1740
@@ -1728,73 +1763,73 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_Statistics.php:403
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:621
 msgid "Custom fields"
-msgstr ""
+msgstr "カスタムフィールド"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:111
 msgid "Email Settings"
-msgstr ""
+msgstr "メール設定"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:112
 msgid "Plugins"
-msgstr ""
+msgstr "プラグイン"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:216
 msgid "Hide quiz title"
-msgstr ""
+msgstr "クイズのタイトルを非表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:221
 msgid "Hide title"
-msgstr ""
+msgstr "タイトルを非表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:230
 msgid "The title serves as quiz heading."
-msgstr ""
+msgstr "タイトルはクイズの見出しとして機能します。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:237
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:242
 msgid "Hide \"Restart quiz\" button"
-msgstr ""
+msgstr "“クイズを再開”ボタンを非表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:251
 msgid "Hide the \"Restart quiz\" button in the Frontend."
-msgstr ""
+msgstr "ページで”クイズを再開”ボタンを非表示にします。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:259
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:264
 msgid "Hide \"View question\" button"
-msgstr ""
+msgstr "”問題を表示” ボタンを非表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:273
 msgid "Hide the \"View question\" button in the Frontend."
-msgstr ""
+msgstr "ページで”問題を表示” ボタンを非表示にします。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:281
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:286
 msgid "Display question randomly"
-msgstr ""
+msgstr "問題をランダムに表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:298
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:303
 msgid "Display answers randomly"
-msgstr ""
+msgstr "回答をランダムに表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:315
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:320
 msgid "Sort questions by category"
-msgstr ""
+msgstr "カテゴリで問題を並べ替え"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:329
 msgid ""
 "Also works in conjunction with the \"display randomly question\" option."
-msgstr ""
+msgstr "「問題をランダムに表示」オプションと組み合わせても機能します。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:347
 msgid "Seconds"
-msgstr ""
+msgstr "秒"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:351
 msgid "0 = no limit"
-msgstr ""
+msgstr "0 = 制限なし"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:358
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:363
@@ -1808,56 +1843,62 @@ msgid ""
 "completed quiz, not after every question. The statistics is only visible "
 "over administration menu. (internal statistics)"
 msgstr ""
+"回答に関する統計情報。統計情報はクイズが完了したときに保存されます。統計情報"
+"は管理メニューでのみ確認できます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:380
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:385
 msgid "Statistics IP-lock"
-msgstr ""
+msgstr "統計 IPロック"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:391
 msgid "in minutes (recommended 1440 minutes = 1 day)"
-msgstr ""
+msgstr "分単位（推奨 1440 分 = 1 日）"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:396
 msgid ""
 "Protect the statistics from spam. Result will only be saved every X minutes "
 "from same IP. (0 = deactivated)"
 msgstr ""
+"統計情報をスパムから保護します。同じ IP からの結果は X 分ごとにのみ保存されま"
+"す。(0 = 無効)"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:404
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:410
 msgid "Execute quiz only once"
-msgstr ""
+msgstr "クイズを一度だけ実行"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:420
 msgid ""
 "If you activate this option, the user can complete the quiz only once. "
 "Afterwards the quiz is blocked for this user."
 msgstr ""
+"ユーザーはクイズを一度だけ完了できます。その後、クイズはこのユーザーに対して"
+"ブロックされます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:426
 msgid "This option applies to:"
-msgstr ""
+msgstr "適用："
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:435
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1444
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:145
 msgid "all users"
-msgstr ""
+msgstr "すべてのユーザー"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:440
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1449
 msgid "registered useres only"
-msgstr ""
+msgstr "登録済みユーザーのみ"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:445
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1454
 msgid "anonymous users only"
-msgstr ""
+msgstr "匿名ユーザーのみ"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:452
 msgid "user identification by cookie"
-msgstr ""
+msgstr "クッキーによるユーザー識別"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:456
 msgid ""
@@ -1865,80 +1906,90 @@ msgid ""
 "(anonymous) users. This ensures a longer assignment of the user than the "
 "simple assignment by the IP address."
 msgstr ""
+"未登録（匿名）のユーザーに対して追加でクッキーが設定されます。これにより、IP "
+"アドレスによるシンプルな割り当てよりも、ユーザーの割り当てがより長期間続きま"
+"す。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:463
 msgid "Reset the user identification"
-msgstr ""
+msgstr "ユーザー識別のリセット"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:466
 msgid "User identification has been reset."
-msgstr ""
+msgstr "ユーザー識別がリセットされました。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:469
 msgid "Resets user identification for all users."
-msgstr ""
+msgstr "すべてのユーザーのユーザー識別をリセットします。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:479
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:484
 msgid "Show only specific number of questions"
-msgstr ""
+msgstr "表示する問題数を限定する"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:494
 msgid ""
 "If you enable this option, maximum number of displayed questions will be X "
 "from X questions. (The output of questions is random)"
 msgstr ""
+"表示される問題の最大数は、X 問のうち X 問になります。(問題の出力はランダムで"
+"す)"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:500
 msgid "How many questions should be displayed simultaneously:"
-msgstr ""
+msgstr "同時に表示される問題の数："
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:508
 msgid "in percent"
-msgstr ""
+msgstr "パーセント"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:516
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:521
 msgid "Prerequisites"
-msgstr ""
+msgstr "前提条件"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:530
 msgid ""
 "If you enable this option, you can choose quiz, which user have to finish "
 "before he can start this quiz."
 msgstr ""
+"このクイズを開始する前にユーザーが完了する必要があるクイズを選択できます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:535
 msgid ""
 "In all selected quizzes statistic function have to be active. If it is not "
 "it will be activated automatically."
 msgstr ""
+"選択されたすべてのクイズで統計機能をアクティブにする必要があります。もしアク"
+"ティブでない場合、それは自動的にアクティブ化されます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:545
 msgid "Prerequisites (This quiz have to be finished)"
-msgstr ""
+msgstr "前提条件（このクイズを終了する必要があります）"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:594
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:599
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:618
 msgid "Question overview"
-msgstr ""
+msgstr "問題の概要"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:608
 msgid ""
 "Add at the top of the quiz a question overview, which allows easy "
 "navigation. Additional questions can be marked \"to review\"."
 msgstr ""
+"クイズの最初に問題の概要を追加し、簡単な説明を可能にします。追加の問題には"
+"「確認用」のマークを付けることができます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:613
 msgid "Additional quiz overview will be displayed, before quiz is finished."
-msgstr ""
+msgstr "クイズが終了する前に追加のクイズ概要が表示されます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:654
 msgid ""
 "If you enalbe this option, no quiz overview will be displayed, before "
 "finishing quiz."
-msgstr ""
+msgstr "クイズが終了する前にクイズの概要が表示されなくなります。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:676
 msgid ""
@@ -1946,79 +1997,84 @@ msgid ""
 "\"Overview -> next\" mode). User still will be able to navigate over "
 "\"Question-Overview\""
 msgstr ""
+"ユーザーは問題をスキップできなくなります（「概要 -> 次へ」モードのみ）。ユー"
+"ザーは「問題の概要」を介してナビゲートできるようになります。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:685
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:690
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1974
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1979
 msgid "Admin e-mail notification"
-msgstr ""
+msgstr "管理者メール通知"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:700
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1991
 msgid "for registered users only"
-msgstr ""
+msgstr "登録ユーザーのみ"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:705
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1997
 msgid "for all users"
-msgstr ""
+msgstr "すべてのユーザー"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:708
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2001
 msgid ""
 "If you enable this option, you will be informed if a user completes this "
 "quiz."
-msgstr ""
+msgstr "ユーザーがこのクイズを完了した場合に通知されます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:712
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:737
 msgid "E-Mail settings can be edited in global settings."
-msgstr ""
+msgstr "メールの設定はグローバル設定で編集できます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:721
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:726
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2138
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2143
 msgid "User e-mail notification"
-msgstr ""
+msgstr "ユーザーメール通知"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:733
 msgid ""
 "If you enable this option, an email is sent with his quiz result to the "
 "user. (only registered users)"
 msgstr ""
+"クイズの結果とともにユーザーに電子メールが送信されます(登録ユーザーのみ）"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:746
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:751
 msgid "Autostart"
-msgstr ""
+msgstr "自動スタート"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:760
 msgid ""
 "If you enable this option, the quiz will start automatically after the page "
 "is loaded."
-msgstr ""
+msgstr "ページが読み込まれた後にクイズが自動的に開始されます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:768
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:774
 msgid "Only registered users are allowed to start the quiz"
-msgstr ""
+msgstr "登録ユーザーのみがクイズを開始できるようになります"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:784
 msgid ""
 "If you enable this option, only registered users allowed start the quiz."
-msgstr ""
+msgstr "クイズを開始する権限は登録ユーザーのみに限られます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:801
 msgid "Results text"
-msgstr ""
+msgstr "結果テキスト"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:806
 msgid ""
 "This text will be displayed at the end of the quiz (in results). (this text "
 "is optional)"
 msgstr ""
+"このテキストはクイズの最後（結果画面）に表示されます。 （このテキストはオプ"
+"ションです）"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:812
 msgid "Activate graduation"
@@ -2026,11 +2082,11 @@ msgstr ""
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:819
 msgid "Hint:"
-msgstr ""
+msgstr "ヒント："
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:821
 msgid "Maximal 15 levels"
-msgstr ""
+msgstr "最大15レベル"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:823
 #, php-format
@@ -2038,14 +2094,16 @@ msgid ""
 "Percentages refer to the total score of the quiz. (Current total %d points "
 "in %d questions."
 msgstr ""
+"パーセンテージはクイズの合計得点に関連しています。 （現在の合計得点 %d ポイン"
+"ト、%d 問中。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:828
 msgid "Values can also be mixed up"
-msgstr ""
+msgstr "値は混在していてもかまいません"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:829
 msgid "10,15% or 10.15% allowed (max. two digits after the decimal point)"
-msgstr ""
+msgstr "10,15％または10.15％が許可されています（小数点以下の最大2桁）"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:852
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:876
@@ -2064,6 +2122,8 @@ msgid ""
 "(Will be displayed, when result-percent is >= <span class=\"resultProzent\">"
 "%s</span>%%)"
 msgstr ""
+"（結果のパーセントが <span class=\\”resultProzent\\”>%s</span>%% 以上の場合に"
+"表示されます）"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:860
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:884
@@ -2078,179 +2138,183 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2079
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2231
 msgid "Custom fields - Variables"
-msgstr ""
+msgstr "カスタムフィールド - 変数"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:918
 msgid "Quiz title"
-msgstr ""
+msgstr "クイズのタイトル"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:938
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:480
 msgid "You can assign classify category for a quiz."
-msgstr ""
+msgstr "クイズに分類カテゴリを割り当てることができます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:979
 msgid "Quiz description"
-msgstr ""
+msgstr "クイズの説明"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:984
 msgid "This text will be displayed before start of the quiz."
-msgstr ""
+msgstr "このテキストはクイズの開始前に表示されます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:998
 msgid "Result-Options"
-msgstr ""
+msgstr "結果オプション"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1005
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1010
 msgid "Show average points"
-msgstr ""
+msgstr "平均スコアを表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1019
 msgid "Statistics-function must be enabled."
-msgstr ""
+msgstr "統計機能を有効にする必要があります。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1034
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1039
 msgid "Show category score"
-msgstr ""
+msgstr "カテゴリスコアを表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1048
 msgid ""
 "If you enable this option, the results of each category is displayed on the "
 "results page."
-msgstr ""
+msgstr "各カテゴリの結果が、結果ページに表示されます"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1064
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1069
 msgid "Hide correct questions - display"
-msgstr ""
+msgstr "正解の個数を非表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1078
 msgid ""
 "If you select this option, no longer the number of correctly answered "
 "questions are displayed on the results page."
-msgstr ""
+msgstr "正解した問題の数は、結果ページに表示されなくなります。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1094
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1099
 msgid "Hide quiz time - display"
-msgstr ""
+msgstr "回答時間を非表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1108
 msgid ""
 "If you enable this option, the time for finishing the quiz won't be "
 "displayed on the results page anymore."
-msgstr ""
+msgstr "クイズの回答にかかった時間が結果ページに表示されなくなります。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1124
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1129
 msgid "Hide score - display"
-msgstr ""
+msgstr "スコアを非表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1138
 msgid ""
 "If you enable this option, final score won't be displayed on the results "
 "page anymore."
-msgstr ""
+msgstr "最終スコアが結果ページに表示されなくなります。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1165
 msgid "Question-Options"
-msgstr ""
+msgstr "問題のオブション"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1172
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1177
 msgid "Show points"
-msgstr ""
+msgstr "ポイントを表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1186
 msgid "Shows in quiz, how many points are reachable for respective question."
-msgstr ""
+msgstr "各問題で獲得できるポイントを表示します"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1194
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1199
 msgid "Number answers"
-msgstr ""
+msgstr "回答番号"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1208
 msgid ""
 "If this option is activated, all answers are numbered (only single and "
 "multiple choice)"
-msgstr ""
+msgstr "すべての回答に番号が付けられます（singleとmultiple choiceのみ）"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1224
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1229
 msgid "Hide correct- and incorrect message"
-msgstr ""
+msgstr "正解および不正解メッセージを非表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1238
 msgid ""
 "If you enable this option, no correct- or incorrect message will be "
 "displayed."
-msgstr ""
+msgstr "正解または不正解メッセージが表示されません。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1255
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1260
 msgid "Correct and incorrect answer mark"
-msgstr ""
+msgstr "正解および不正解の回答マーク"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1269
 msgid ""
 "If you enable this option, answers won't be color highlighted as correct or "
 "incorrect. "
-msgstr ""
+msgstr "回答は正解または不正解として色分けされません "
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1285
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1290
 msgid "Force user to answer each question"
-msgstr ""
+msgstr "回答を強制"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1299
 msgid "If you enable this option, the user is forced to answer each question."
-msgstr ""
+msgstr "ユーザーは各問題に回答するように強制されます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1301
 msgid ""
 "If the option \"Question overview\" is activated, this notification will "
 "appear after end of the quiz, otherwise after each question."
 msgstr ""
+"オプション「問題概要」が有効になっている場合、この通知はクイズの終了後に表示"
+"され、それ以外の場合は各問題の後に表示されます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1309
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1314
 msgid "Hide question position overview"
-msgstr ""
+msgstr "問題の位置概要を非表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1323
 msgid "If you enable this option, the question position overview is hidden."
-msgstr ""
+msgstr "このオプションを有効にすると、問題の位置概要が非表示になります。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1340
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1345
 msgid "Hide question numbering"
-msgstr ""
+msgstr "問題番号を非表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1354
 msgid "If you enable this option, the question numbering is hidden."
-msgstr ""
+msgstr "このオプションを有効にすると、問題番号が非表示になります。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1371
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1376
 msgid "Display category"
-msgstr ""
+msgstr "カテゴリを表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1385
 msgid "If you enable this option, category will be displayed in the question."
-msgstr ""
+msgstr "このオプションを有効にすると、カテゴリが問題に表示されます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1415
 msgid ""
 "The leaderboard allows users to enter results in public list and to share "
 "the result this way."
 msgstr ""
+"リーダーボードを使用すると、ユーザーは結果を公開リストに入力し、この方法で結"
+"果を共有できます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1420
 msgid "The leaderboard works independent from internal statistics function."
-msgstr ""
+msgstr "リーダーボードは統計機能とは独立して動作します。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1438
 msgid "Who can sign up to the list"
@@ -2261,86 +2325,88 @@ msgid ""
 "Not registered users have to enter name and e-mail (e-mail won't be "
 "displayed)"
 msgstr ""
+"登録されていないユーザーは名前とメールアドレスを入力する必要があります（メー"
+"ルアドレスは表示されません）"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1465
 msgid "insert automatically"
-msgstr ""
+msgstr "自動で挿入"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1475
 msgid ""
 "If you enable this option, logged in users will be automatically entered "
 "into leaderboard"
-msgstr ""
+msgstr "ログインしているユーザーは自動的にリーダーボードに登録されます"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1482
 msgid "display captcha"
-msgstr ""
+msgstr "captchaを表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1492
 msgid ""
 "If you enable this option, additional captcha will be displayed for users "
 "who are not registered."
-msgstr ""
+msgstr "登録されていないユーザーに追加のCAPTCHAが表示されます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1497
 msgid "This option requires additional plugin:"
-msgstr ""
+msgstr "追加のプラグインが必要です："
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1503
 msgid "Plugin has been detected."
-msgstr ""
+msgstr "プラグインが検出されました。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1507
 msgid "Plugin is not installed."
-msgstr ""
+msgstr "プラグインがインストールされていません。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1515
 msgid "Sort list by"
-msgstr ""
+msgstr "リストの並べ替え方法"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1537
 msgid "Users can apply multiple times"
-msgstr ""
+msgstr "ユーザーは複数回申し込むことができます"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1549
 msgid "User can apply after:"
-msgstr ""
+msgstr "後で適用できます:"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1552
 msgid "minute"
-msgstr ""
+msgstr "分"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1559
 msgid "How many entries should be displayed"
-msgstr ""
+msgstr "表示するエントリーの数"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1566
 msgid "Entries"
-msgstr ""
+msgstr "エントリー"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1573
 msgid "Automatically display leaderboard in quiz result"
-msgstr ""
+msgstr "クイズ結果にリーダーボードを自動表示"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1577
 msgid "Where should leaderboard be displayed:"
-msgstr ""
+msgstr "リーダーボードをどこに表示しますか："
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1581
 msgid "don't display"
-msgstr ""
+msgstr "表示しない"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1586
 msgid "below the \"result text\""
-msgstr ""
+msgstr "「結果テキスト」の下"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1598
 msgid "in a button"
-msgstr ""
+msgstr "ボタン内"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1621
 msgid "Quiz-Mode"
-msgstr ""
+msgstr "クイズモード"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1628
 msgid "Normal"
@@ -2363,56 +2429,62 @@ msgid ""
 "Displays all questions sequentially, \"right\" or \"false\" will be "
 "displayed at the end of the quiz."
 msgstr ""
+"すべての問題が順次表示され、クイズの最後に「正しい」または「誤った」が表示さ"
+"れます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1659
 msgid "Allows to use the back button in a question."
-msgstr ""
+msgstr "戻るボタンを表示する。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1662
 msgid "Shows \"right or wrong\" after each question."
-msgstr ""
+msgstr "各問題の後に「正解」「不正解」を表示します。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1665
 msgid ""
 "If this option is activated, all answers are displayed below each other, i."
 "e. all questions are on a single page."
 msgstr ""
+"このオプションを有効にすると、すべての回答が縦に並び、つまりすべての問題が1"
+"ページに表示されます。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1712
 msgid "How many questions to be displayed on a page:"
-msgstr ""
+msgstr "1ページに表示される問題数："
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1716
 msgid "(0 = All on one page)"
-msgstr ""
+msgstr "(0 = すべての問題を1ページに表示)"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1745
 msgid ""
 "You can create custom fields, e.g. to request the name or the e-mail address "
 "of the users."
 msgstr ""
+"ユーザーの名前やメールアドレスを要求するなど、カスタムフィールドを作成できま"
+"す。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1750
 msgid "The statistic function have to be enabled."
-msgstr ""
+msgstr "統計機能を有効にする必要があります。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1757
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1762
 msgid "Custom fields enable"
-msgstr ""
+msgstr "カスタムフィールドを有効にする"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1771
 msgid "If you enable this option, custom fields are enabled."
-msgstr ""
+msgstr "このオプションを有効にすると、カスタムフィールドが有効になります。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1778
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1783
 msgid "Display position"
-msgstr ""
+msgstr "表示位置"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1785
 msgid "Where should the fileds be displayed:"
-msgstr ""
+msgstr "フィールドをどこに表示しますか："
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1791
 msgid "On the quiz startpage"
@@ -2424,15 +2496,15 @@ msgstr ""
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1840
 msgid "Field name"
-msgstr ""
+msgstr "フィールド名"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1842
 msgid "Required?"
-msgstr ""
+msgstr "必須？"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1844
 msgid "Show in statistic table?"
-msgstr ""
+msgstr "統計表に表示？"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1883
 msgid "Text"
@@ -2474,11 +2546,11 @@ msgstr ""
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1911
 msgid "Edit list"
-msgstr ""
+msgstr "リストを編集"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1915
 msgid "One entry per line"
-msgstr ""
+msgstr "1行に1つ入力"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1923
 msgid "OK"
@@ -2486,11 +2558,11 @@ msgstr ""
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1952
 msgid "Add field"
-msgstr ""
+msgstr "フィールドを追加"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:1967
 msgid "Admin e-mail settings"
-msgstr ""
+msgstr "管理者のメール設定"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2009
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2160
@@ -2502,6 +2574,8 @@ msgid ""
 "Separate multiple email addresses with a comma, e.g. wp@test.com, test@test."
 "com"
 msgstr ""
+"複数のEメールアドレスはコンマで区切ってください、例: wp@test.com, test@test."
+"com"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2025
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2181
@@ -2526,7 +2600,7 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2076
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2228
 msgid "Allowed variables"
-msgstr ""
+msgstr "使用できる変数"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2087
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2239
@@ -2543,40 +2617,42 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2090
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2242
 msgid "Quiz-Name"
-msgstr ""
+msgstr "クイズ名"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2092
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2244
 msgid "Result in precent"
-msgstr ""
+msgstr "結果をパーセントで"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2094
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2246
 msgid "Reached points"
-msgstr ""
+msgstr "獲得したポイント"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2096
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2248
 msgid "IP-address of the user"
-msgstr ""
+msgstr "ユーザーのIPアドレス"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2098
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2250
 msgid "Category-Overview"
-msgstr ""
+msgstr "カテゴリー概要"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2131
 msgid "User e-mail settings"
-msgstr ""
+msgstr "ユーザーのメール設定"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2152
 msgid ""
 "If you enable this option, an email is sent with his quiz result to the user."
 msgstr ""
+"このオプションを有効にすると、ユーザーにクイズの結果を含むメールが送信されま"
+"す。"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2166
 msgid "User Email-Address (only registered users)"
-msgstr ""
+msgstr "ユーザーのメールアドレス（登録ユーザーのみ）"
 
 #: lib/view/WpAdvQuiz_View_QuizEdit.php:2174
 msgid "(Type Email)"
@@ -2585,16 +2661,16 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:305
 #: lib/view/WpAdvQuiz_View_WaqSupport.php:13
 msgid "Donate"
-msgstr ""
+msgstr "寄付"
 
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:310
 msgid "Quiz overview"
-msgstr ""
+msgstr "クイズ概要"
 
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:312
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:342
 msgid "Add quiz"
-msgstr ""
+msgstr "クイズを追加"
 
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:332
 msgid "Learn more"
@@ -2602,64 +2678,64 @@ msgstr ""
 
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:468
 msgid "Set Quiz Categories"
-msgstr ""
+msgstr "クイズのカテゴリーを設定"
 
 #: lib/view/WpAdvQuiz_View_QuizOverall.php:470
 msgid "Sets multiple quiz categories "
-msgstr ""
+msgstr "複数のクイズカテゴリーを設定"
 
 #: lib/view/WpAdvQuiz_View_QuizOverallTable.php:20
 msgid "Shortcode"
-msgstr ""
+msgstr "ショートコード"
 
 #: lib/view/WpAdvQuiz_View_QuizOverallTable.php:21
 msgid "Shortcode-Leaderboard"
-msgstr ""
+msgstr "ショートコード(リーダーボード)"
 
 #: lib/view/WpAdvQuiz_View_QuizOverallTable.php:84
 msgid "Preview"
-msgstr ""
+msgstr "プレビュー"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:33
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:88
 #, php-format
 msgid "Quiz: %s - Statistics"
-msgstr ""
+msgstr "クイズ: %s - 統計"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:40
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:95
 msgid "Stats not enabled"
-msgstr ""
+msgstr "統計が無効になっています"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:43
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:98
 msgid "Activate statistics"
-msgstr ""
+msgstr "統計を有効にする"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:50
 msgid "Users"
-msgstr ""
+msgstr "ユーザー"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:52
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:107
 msgid "Overview"
-msgstr ""
+msgstr "概要"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:84
 msgid "Please select user name:"
-msgstr ""
+msgstr "ユーザー名を選択してください："
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:88
 msgid "Select a test:"
-msgstr ""
+msgstr "テストを選択："
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:98
 msgid "Anonymous user"
-msgstr ""
+msgstr "匿名ユーザー"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:108
 msgid "average"
-msgstr ""
+msgstr "平均"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:125
 #: lib/view/WpAdvQuiz_View_Statistics.php:267
@@ -2673,22 +2749,22 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:211
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:696
 msgid "Time"
-msgstr ""
+msgstr "時間"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:128
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:213
 msgid "Points scored"
-msgstr ""
+msgstr "獲得ポイント"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:167
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:281
 msgid "Sub-Total: "
-msgstr ""
+msgstr "小計: "
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:188
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:318
 msgid "Total"
-msgstr ""
+msgstr "合計"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:202
 #: lib/view/WpAdvQuiz_View_Statistics.php:297
@@ -2697,16 +2773,16 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:217
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:316
 msgid "Refresh"
-msgstr ""
+msgstr "更新"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:206
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:340
 msgid "Reset statistics"
-msgstr ""
+msgstr "統計をリセット"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:208
 msgid "Reset user statistics"
-msgstr ""
+msgstr "ユーザー統計をリセット"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:210
 #: lib/view/WpAdvQuiz_View_Statistics.php:299
@@ -2714,48 +2790,48 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:220
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:319
 msgid "Reset entire statistic"
-msgstr ""
+msgstr "全統計をリセット"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:238
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:268
 msgid "Show only users, who solved the quiz:"
-msgstr ""
+msgstr "クイズを解いたユーザーのみ表示："
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:325
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:142
 msgid "Which users should be displayed:"
-msgstr ""
+msgstr "表示するユーザーの選択："
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:327
 msgid "all"
-msgstr ""
+msgstr "すべて"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:328
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:147
 msgid "only registered users"
-msgstr ""
+msgstr "登録ユーザーのみ"
 
 #: lib/view/WpAdvQuiz_View_Statistics.php:329
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:149
 msgid "only anonymous users"
-msgstr ""
+msgstr "匿名ユーザーのみ"
 
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:49
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:210
 msgid "Solved"
-msgstr ""
+msgstr "解決済み"
 
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:86
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:289
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:324
 #, php-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d / %d"
 
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:185
 #, php-format
 msgid "User statistics: %s"
-msgstr ""
+msgstr "ユーザー統計：%s"
 
 #: lib/view/WpAdvQuiz_View_StatisticsAjax.php:257
 msgid "yes"
@@ -2767,7 +2843,7 @@ msgstr ""
 
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:105
 msgid "History"
-msgstr ""
+msgstr "履歴"
 
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:144
 msgid "special filter"
@@ -2776,63 +2852,66 @@ msgstr ""
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:183
 #, php-format
 msgid "Search to date limit from %s to %s"
-msgstr ""
+msgstr "%s から %s までの日付制限で検索"
 
 #: lib/view/WpAdvQuiz_View_StatisticsNew.php:340
 msgid "Please select a format"
-msgstr ""
+msgstr "フォーマットを選択してください"
 
 #: lib/view/WpAdvQuiz_View_StyleManager.php:20
 msgid "Front"
-msgstr ""
+msgstr "フロント"
 
 #: lib/view/WpAdvQuiz_View_WaqSupport.php:11
 msgid "Support Wp-Adv-Quiz"
-msgstr ""
+msgstr "Wp-Adv-Quizのサポート"
 
 #: lib/view/WpAdvQuiz_View_WaqSupport.php:15
 msgid "PayPal Donate"
-msgstr ""
+msgstr "PayPalで寄付"
 
 #: lib/view/WpAdvQuiz_View_WaqSupport.php:18
 msgid "WP-Adv-Quiz is small but nice free quiz plugin for WordPress."
-msgstr ""
+msgstr "WP-Adv-Quizは小さながら素敵な無料のWordPressクイズプラグインです。"
 
 #: lib/view/WpAdvQuiz_View_WaqSupport.php:19
 msgid ""
 "Your donations can help to ensure that the project continues to remain free."
 msgstr ""
+"あなたの寄付は、プロジェクトが無料で続けられるようにするのに役立ちます。"
 
 #: lib/view/WpAdvQuiz_View_WaqSupport.php:25
 msgid "Wp-Adv-Quiz on Github"
-msgstr ""
+msgstr "Wp-Adv-QuizのGitHub"
 
 #: lib/view/WpAdvQuiz_View_WaqSupport.php:27
 msgid "Translate Wp-Adv-Quiz"
-msgstr ""
+msgstr "Wp-Adv-Quizの翻訳"
 
 #: lib/view/WpAdvQuiz_View_WaqSupport.php:29
 msgid "To translate WP-Adv-Quiz, please follow these steps:"
-msgstr ""
+msgstr "WP-Adv-Quizを翻訳するには、次の手順に従ってください："
 
 #: lib/view/WpAdvQuiz_View_WaqSupport.php:33
 msgid ""
 "Login to your account on wordpress.org (or create an account if you don’t "
 "have one yet)."
 msgstr ""
+"“wordpress.org”のアカウントにログインします（またはまだアカウントを作成してい"
+"ない場合はアカウントを作成します）。"
 
 #: lib/view/WpAdvQuiz_View_WaqSupport.php:34
 msgid "Go to https://translate.wordpress.org."
-msgstr ""
+msgstr "“https://translate.wordpress.org“にアクセスします。"
 
 #: lib/view/WpAdvQuiz_View_WaqSupport.php:35
 msgid "Select your language and click ‘Contribute Translation’."
-msgstr ""
+msgstr "言語を選択し、 ‘Contribute Translation’ をクリックします。"
 
 #: lib/view/WpAdvQuiz_View_WaqSupport.php:36
 msgid "Go to the Plugins tab and search for ‘Wp-Adv-Quiz’."
-msgstr ""
+msgstr "プラグインタブに移動し、 ‘Wp-Adv-Quiz’ を検索します。"
 
 #: lib/view/WpAdvQuiz_View_WaqSupport.php:37
 msgid "Select the plugin and start translating!"
-msgstr ""
+msgstr "プラグインを選択して翻訳を開始します！"
